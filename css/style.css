@@ -34568,7 +34568,7 @@ fieldset[disabled] .swiper-slide-caption
 	background: -webkit-linear-gradient(90deg, #42b574 0%, #84c450 100%);
 	background: -o-linear-gradient(90deg, #42b574 0%, #84c450 100%);
 	background: -ms-linear-gradient(90deg, #42b574 0%, #84c450 100%);
-	background: linear-gradient(90deg, #42b574 0%, #84c450 100%);
+	background: linear-gradient(90deg, #9d472a  0%, #9d472a  100%);
 }
 
 .rd-navbar-default.rd-navbar-static .rd-navbar-nav > li > a > .rd-navbar-label, .rd-navbar-floated.rd-navbar-static .rd-navbar-nav > li > a > .rd-navbar-label, .rd-navbar-top-panel.rd-navbar-static .rd-navbar-nav > li > a > .rd-navbar-label {
@@ -34718,7 +34718,7 @@ fieldset[disabled] .swiper-slide-caption
 }
 
 .rd-navbar-default.rd-navbar-transparent.rd-navbar-static .rd-navbar-dropdown, .rd-navbar-default.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown, .rd-navbar-floated.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown, .rd-navbar-top-panel.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown, .rd-navbar-logo-center.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown, .rd-navbar-default.rd-navbar-transparent.rd-navbar-static .rd-navbar-megamenu, .rd-navbar-default.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu, .rd-navbar-floated.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu, .rd-navbar-top-panel.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu, .rd-navbar-logo-center.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu {
-	background: #151515;
+	background: #ffffff;
 }
 
 .rd-navbar-default.rd-navbar-transparent.rd-navbar-static .rd-navbar-dropdown li.rd-navbar--has-dropdown:after, .rd-navbar-default.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown li.rd-navbar--has-dropdown:after, .rd-navbar-floated.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown li.rd-navbar--has-dropdown:after, .rd-navbar-top-panel.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown li.rd-navbar--has-dropdown:after, .rd-navbar-logo-center.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown li.rd-navbar--has-dropdown:after, .rd-navbar-default.rd-navbar-transparent.rd-navbar-static .rd-navbar-megamenu li.rd-navbar--has-dropdown:after, .rd-navbar-default.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu li.rd-navbar--has-dropdown:after, .rd-navbar-floated.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu li.rd-navbar--has-dropdown:after, .rd-navbar-top-panel.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu li.rd-navbar--has-dropdown:after, .rd-navbar-logo-center.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu li.rd-navbar--has-dropdown:after {
@@ -60416,5 +60416,22 @@ html .wrapper {
 
 .debug-outline * {
 	outline: 1px solid orange;
+}
+ .text-capitaliz {
+	text-transform: capitalize;
+}
+a {
+	color: #544D47;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s;
+	transition: 0.5s;
+  }
+  .rd-navbar-default.rd-navbar-transparent.rd-navbar-static .rd-navbar-dropdown li:hover > a, .rd-navbar-default.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown li:hover > a, .rd-navbar-floated.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown li:hover > a, .rd-navbar-top-panel.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown li:hover > a, .rd-navbar-logo-center.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown li:hover > a, .rd-navbar-default.rd-navbar-transparent.rd-navbar-static .rd-navbar-megamenu li:hover > a, .rd-navbar-default.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu li:hover > a, .rd-navbar-floated.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu li:hover > a, .rd-navbar-top-panel.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu li:hover > a, .rd-navbar-logo-center.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu li:hover > a {
+	color: black;
+	background: #ffffff;
+}
+.rd-navbar-default.rd-navbar-transparent.rd-navbar-static .rd-navbar-dropdown li > a, .rd-navbar-default.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown li > a, .rd-navbar-floated.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown li > a, .rd-navbar-top-panel.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown li > a, .rd-navbar-logo-center.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown li > a, .rd-navbar-default.rd-navbar-transparent.rd-navbar-static .rd-navbar-megamenu li > a, .rd-navbar-default.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu li > a, .rd-navbar-floated.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu li > a, .rd-navbar-top-panel.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu li > a, .rd-navbar-logo-center.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu li > a {
+	color: #0a0a0a;
+	
 }
 /*# sourceMappingURL=style.css.map */

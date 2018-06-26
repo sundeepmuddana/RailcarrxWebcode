@@ -60420,18 +60420,21 @@ html .wrapper {
  .text-capitaliz {
 	text-transform: capitalize;
 }
-a {
+.a {
 	color: #544D47;
 	-webkit-transition: 0.5s;
 	-o-transition: 0.5s;
 	transition: 0.5s;
   }
-  .rd-navbar-default.rd-navbar-transparent.rd-navbar-static .rd-navbar-dropdown li:hover > a, .rd-navbar-default.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown li:hover > a, .rd-navbar-floated.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown li:hover > a, .rd-navbar-top-panel.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown li:hover > a, .rd-navbar-logo-center.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown li:hover > a, .rd-navbar-default.rd-navbar-transparent.rd-navbar-static .rd-navbar-megamenu li:hover > a, .rd-navbar-default.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu li:hover > a, .rd-navbar-floated.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu li:hover > a, .rd-navbar-top-panel.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu li:hover > a, .rd-navbar-logo-center.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu li:hover > a {
-	color: black;
-	background: #ffffff;
-}
+  a:hover, a:active, a:focus {
+	color: #544D47;
+	outline: none;
+  }
 .rd-navbar-default.rd-navbar-transparent.rd-navbar-static .rd-navbar-dropdown li > a, .rd-navbar-default.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown li > a, .rd-navbar-floated.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown li > a, .rd-navbar-top-panel.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown li > a, .rd-navbar-logo-center.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown li > a, .rd-navbar-default.rd-navbar-transparent.rd-navbar-static .rd-navbar-megamenu li > a, .rd-navbar-default.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu li > a, .rd-navbar-floated.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu li > a, .rd-navbar-top-panel.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu li > a, .rd-navbar-logo-center.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu li > a {
 	color: #0a0a0a;
 	
 }
+.arrow {
+	color: #9f472a;
+  }
 /*# sourceMappingURL=style.css.map */

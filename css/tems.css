@@ -74,5 +74,8 @@
 .bgimg {
     background-image: url('../images/slider-home-2.png');
 }
+img {
+    float: left;
+}
 
 </style>

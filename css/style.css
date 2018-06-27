@@ -11450,7 +11450,7 @@ mark, .mark {
 .owl-carousel-present.owl-carousel-arrows .owl-next:hover:before,
 .owl-carousel-present.owl-carousel-arrows .page .owl-next:hover:before {
 	color: #9b4d29;
-	background-image: -webkit-linear-gradient(0deg, #42b574 0%, #0c6094 100%);
+	background-image: -webkit-linear-gradient(0deg, #ea8e4c 0%, #fd0101ed 100%);
 }
 
 .page .text-acapulco, .page .text-acapulco:before {
@@ -12385,11 +12385,11 @@ fieldset[disabled] .btn-link:focus {
 
 .btn-anis-effect.btn-primary {
 	color: #fff;
-	background-color: #42b574;
+	background-color: #0c6094;
 }
 
 .btn-anis-effect.btn-primary:before, .btn-anis-effect.btn-primary:after {
-	background: #79ccf2;
+	background: #0c6094;
 }
 
 .btn-anis-effect.btn-primary:hover {
@@ -60437,4 +60437,83 @@ html .wrapper {
 .arrow {
 	color: #9f472a;
   }
+
+  .sectio-heading h2 span:before {
+	 left: 0px;
+	/* background: #FA5555; */
+  }
+  .sectio-heading h2 span:after, .section-heading h2 span:before {
+	content: "";
+	position: absolute;
+	display: block;
+	width: 7px;
+	height: 7px;
+	/* background: #00ADB5; */
+	left: -7px;
+	margin-left: -20px;
+	bottom: 6px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	border-radius: 50%;
+  }
+  .big1{
+	color: #333;
+	font-family: "PT Sans", Arial, serif;
+	font-weight: 400;
+	text-align:  center;
+	margin: 0 0 30px 0;
+  }
+  h1, h2, h3, h4, h5, h6 {
+	
+	font-family: "PT Sans", Arial, serif;
+	font-weight: 400;
+	text-align:  center;
+	margin: 0 0 30px 0;
+  }
+
+  .row > .column {    
+	padding: 9px 171px;
+    padding-left: 11%;
+  }
+  
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+  
+  /* Create four equal columns that floats next to eachother */
+  .column1 {
+	float: left;
+  width: 18.33%;
+  align-items: center;
+  padding: 10px;
+  height: 100px;
+  }
+  .img1 {
+	border: 0;
+	height:100%;
+	vertical-align: middle;
+	width: auto;
+}
+.row1 {
+	margin-left: 10%;
+	margin-right: 10%;
+  }
+  .icon-primary {
+    color: #0c5f94;
+    border-color: #0b5e94;
+}
+.btn-primary {
+	color: #fff;
+	background-color: #0b5e94;
+	border-color: #0b5e94;
+}
+.ui-to-top:hover {
+	color: #fff;
+	background: #0c6094;
+}
+
+  
 /*# sourceMappingURL=style.css.map */

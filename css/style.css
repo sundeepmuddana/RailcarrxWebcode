@@ -34616,7 +34616,10 @@ fieldset[disabled] .swiper-slide-caption
 	text-align: left;
 	opacity: 0;
 	box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.15);
-	border-top: 1px solid #42b574;
+	border-top: 1px solid #9e472a;
+	/* border-bottom:1px solid #9e472a;
+	border-right:1px solid #9e472a;
+	border-left:1px solid #9e472a; */
 }
 
 .rd-navbar-default.rd-navbar-static .rd-navbar-dropdown .rd-navbar-dropdown, .rd-navbar-floated.rd-navbar-static .rd-navbar-dropdown .rd-navbar-dropdown, .rd-navbar-top-panel.rd-navbar-static .rd-navbar-dropdown .rd-navbar-dropdown, .rd-navbar-logo-center.rd-navbar-static .rd-navbar-dropdown .rd-navbar-dropdown, .rd-navbar-default.rd-navbar-static .rd-navbar-megamenu .rd-navbar-dropdown, .rd-navbar-floated.rd-navbar-static .rd-navbar-megamenu .rd-navbar-dropdown, .rd-navbar-top-panel.rd-navbar-static .rd-navbar-megamenu .rd-navbar-dropdown, .rd-navbar-logo-center.rd-navbar-static .rd-navbar-megamenu .rd-navbar-dropdown, .rd-navbar-default.rd-navbar-static .rd-navbar-cart-dropdown .rd-navbar-dropdown, .rd-navbar-floated.rd-navbar-static .rd-navbar-cart-dropdown .rd-navbar-dropdown, .rd-navbar-top-panel.rd-navbar-static .rd-navbar-cart-dropdown .rd-navbar-dropdown, .rd-navbar-logo-center.rd-navbar-static .rd-navbar-cart-dropdown .rd-navbar-dropdown {
@@ -60516,6 +60519,74 @@ html .wrapper {
 	color: #fff;
 	background: #0c6094;
 }
+.rd-navbar-default.rd-navbar-transparent.rd-navbar-static .rd-navbar-nav > li a, .rd-navbar-default.rd-navbar-dark.rd-navbar-static .rd-navbar-nav > li a {
+	color: #0a0a0a;
+}
 
+
+.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+}
+
+.tablink:hover {
+    background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+    color: white;
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+}
+
+/* #Home {background-color: red;}
+#News {background-color: green;}
+#Contact {background-color: blue;}
+#About {background-color: orange;} */
+/* #Home {background-image: url("images/2017/5380091-railway.jpg");}
+#News {background-image: url("images/2017/slider-home-2.jpg");}
+#Contact {background-image: url("images/2017/Car-Owners-150x150.jpg");}
+#About {background-image: url("images/2017/imagesRolling.jpg");} */
+
+
+.button1 {
+	padding: 15px 25px;
+	font-size: 24px;
+	text-align: center;
+	cursor: pointer;
+	outline: none;
+	color: #fff;
+	background-color: #4CAF50;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 9px #9e472a;
+  }
   
+  .button1:hover {background-color: #3e8e41}
+  
+  .button1:active {
+	background-color: #3e8e41;
+	box-shadow: 0 7px #9d472c;
+	transform: translateY(4px);
+  }
+  .shell-fluid {
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 3%;
+}
+.hb2{
+    font-size: 147.36%;
+    line-height: 1.142857142857143;
+}
 /*# sourceMappingURL=style.css.map */

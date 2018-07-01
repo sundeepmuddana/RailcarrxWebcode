@@ -60636,5 +60636,18 @@ html .wrapper {
 		padding-bottom: 120px;
 	}
 }
+.page .text-bold, .page strong {
+	font-weight: 300;
+}
+.section-list-absolute .connector {
+	height: 2px;
+	width: 96px;
+	background: #00baff;
+	display: none;
+	position: absolute;
+	left: calc(100% + 10px);
+	top: 50%;
+	margin-top: -82px;
+}
 
 /*# sourceMappingURL=style.css.map */

@@ -32432,6 +32432,7 @@ fieldset[disabled] .box-planning-type-4
 	display: inline-block;
 	transition: width 0.5s ease;
 	white-space: nowrap;
+	width: 1000px !important;
 }
 
 /** 2.49 Jumbotron Addons */
@@ -60589,4 +60590,51 @@ html .wrapper {
     font-size: 147.36%;
     line-height: 1.142857142857143;
 }
+.responsive-tabs .resp-tabs-list li {
+	position: relative;
+	display: inline-block;
+	padding: 0 0 13px;
+	font-size: 68%;
+	color: #45474a;
+	text-transform: uppercase;
+	list-style-type: none;
+	cursor: pointer;
+	transition: color .2s ease-in;
+	font-weight: bold;
+}
+@media (min-width: 992px) {
+	.section-md-0 {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.section-md-34 {
+		padding-top: 34px;
+		padding-bottom: 34px;
+	}
+	.section-md-50 {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	.section-md-65 {
+		padding-top: 65px;
+		padding-bottom: 65px;
+	}
+	.section-md-90 {
+		padding-top: 90px;
+		padding-bottom: 90px;
+	}
+	.section-md-100 {
+		padding-top: 100px;
+		padding-bottom: 100px;
+	}
+	.section-md-110 {
+		padding-top: 110px;
+		padding-bottom: 110px;
+	}
+	.sction-md-120 {
+		padding-top: 1px;
+		padding-bottom: 120px;
+	}
+}
+
 /*# sourceMappingURL=style.css.map */

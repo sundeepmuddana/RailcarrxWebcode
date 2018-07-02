@@ -11357,7 +11357,7 @@ mark, .mark {
 
 .page blockquote.quote .text-picton-blue,
 .page .text-picton-blue {
-	color: #55bbeb;
+	color: #1970A6;
 }
 
 .page a.text-picton-blue:hover,
@@ -11449,23 +11449,23 @@ mark, .mark {
 .owl-carousel-present.owl-carousel-arrows .page .owl-next:hover, .page .text-mantis:before, .page .thumbnail-simple:hover .caption:before, .thumbnail-simple:hover .page .caption:before, .page .owl-carousel-present.owl-carousel-arrows .owl-prev:hover:before, .owl-carousel-present.owl-carousel-arrows .page .owl-prev:hover:before, .page
 .owl-carousel-present.owl-carousel-arrows .owl-next:hover:before,
 .owl-carousel-present.owl-carousel-arrows .page .owl-next:hover:before {
-	color: #9b4d29;
-	background-image: -webkit-linear-gradient(0deg, #ea8e4c 0%, #fd0101ed 100%);
+	color: #0C6094;
+	background-image: -webkit-linear-gradient(0deg, #1970A6 0%, #2B82B7 100%);
 }
 
 .page .text-acapulco, .page .text-acapulco:before {
-	color: #55bbeb;
-	background-image: -webkit-linear-gradient(0deg, #55bbeb 0%, #84c450 100%);
+	color: #1970A6;
+	background-image: -webkit-linear-gradient(0deg, #1970A6 0%, #84c450 100%);
 }
 
 .page .text-blue-gray, .page .text-blue-gray:before {
 	color: #8668ad;
-	background-image: -webkit-linear-gradient(0deg, #8668ad 0%, #55bbeb 100%);
+	background-image: -webkit-linear-gradient(0deg, #8668ad 0%, #1970A6 100%);
 }
 
 .page .text-malibu, .page .text-malibu:before {
-	color: #55bbeb;
-	background-image: -webkit-linear-gradient(0deg, #55bbeb 0%, #79ccf2 100%);
+	color: #1970A6;
+	background-image: -webkit-linear-gradient(0deg, #1970A6 0%, #79ccf2 100%);
 }
 
 .page .text-carrot, .page .text-carrot:before {
@@ -11544,7 +11544,7 @@ mark, .mark {
 }
 
 .contact-info dl dd a:hover {
-	color: #55bbeb;
+	color: #1970A6;
 }
 
 /** 2.9  Buttons Addons */
@@ -11733,8 +11733,8 @@ fieldset[disabled]
 .btn-primary:focus, .btn-primary.focus, .btn-primary:hover, .btn-primary:active, .btn-primary.active,
 .open > .btn-primary.dropdown-toggle {
 	color: #fff;
-	background-color: #55bbeb;
-	border-color: #55bbeb;
+	background-color: #1970A6;
+	border-color: #1970A6;
 }
 
 .btn-primary:active, .btn-primary.active,
@@ -60653,5 +60653,45 @@ html .wrapper {
 #bgImgDiv{
 	height:1200px;
 	background-repeat: repeat;
+}
+.section-list-absolute .connector {
+	width: 380px;
+	left: calc(96% + 30px);
+}
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+@media (min-width: 1600px) {
+	.section-list-absolute {
+		display: inline-block;
+		max-width: 100%;
+	}
 }
 /*# sourceMappingURL=style.css.map */

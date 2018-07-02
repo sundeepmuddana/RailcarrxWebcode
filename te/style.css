@@ -10920,7 +10920,7 @@ fieldset[disabled] .btn-primary {
 .section-list-absolute .connector {
 	height: 2px;
 	width: 96px;
-	background: #00baff;
+	background: #0C6094;
 	display: none;
 	position: absolute;
 	left: calc(100% + 10px);
@@ -10935,7 +10935,7 @@ fieldset[disabled] .btn-primary {
 	content: "";
 	width: 83px;
 	height: 2px;
-	background: #00baff;
+	background: #0C6094;
 	-webkit-transform: rotate(45deg);
 	transform: rotate(45deg);
 }
@@ -10950,7 +10950,7 @@ fieldset[disabled] .btn-primary {
 	margin-left: -6px;
 	top: 60px;
 	left: calc(100% + 60px);
-	background: #00baff;
+	background: #0C6094;
 }
 
 @media (min-width: 768px) {
@@ -11017,8 +11017,8 @@ fieldset[disabled] .btn-primary {
 		width: 100%;
 	}
 	.section-list-absolute .connector {
-		width: 180px;
-		left: calc(100% + 50px);
+		width: 212px;
+		left: calc(100% + -32px);
 	}
 	.section-list-absolute .connector:after {
 		top: 29px;
@@ -11041,7 +11041,9 @@ fieldset[disabled] .btn-primary {
 		bottom: 32%;
 	}
 	.section-list-absolute ul li:last-child .connector {
-		width: 473px;
+		width: 269px;
+		margin-left: 72%;
+		margin-top: -11%;
 	}
 	.section-list-absolute ul li:last-child .connector:before {
 		top: 0;
@@ -20665,12 +20667,12 @@ a.icon {
 }
 
 .icon-default {
-	color: #434345;
+	color: #0C6094;
 	border-color: #d9d9d9;
 }
 
 .icon-primary {
-	color: #00baff;
+	color: #0C6094;
 	border-color: #f5f5f5;
 }
 

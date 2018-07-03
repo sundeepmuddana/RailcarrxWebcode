@@ -34668,6 +34668,7 @@ fieldset[disabled] .swiper-slide-caption
 
 .rd-navbar-default.rd-navbar-static .rd-navbar-dropdown li > a > span, .rd-navbar-floated.rd-navbar-static .rd-navbar-dropdown li > a > span, .rd-navbar-top-panel.rd-navbar-static .rd-navbar-dropdown li > a > span, .rd-navbar-logo-center.rd-navbar-static .rd-navbar-dropdown li > a > span, .rd-navbar-default.rd-navbar-static .rd-navbar-megamenu li > a > span, .rd-navbar-floated.rd-navbar-static .rd-navbar-megamenu li > a > span, .rd-navbar-top-panel.rd-navbar-static .rd-navbar-megamenu li > a > span, .rd-navbar-logo-center.rd-navbar-static .rd-navbar-megamenu li > a > span {
 	vertical-align: middle;
+	color: black;
 }
 
 .rd-navbar-default.rd-navbar-static .rd-navbar-dropdown li .rd-navbar-label, .rd-navbar-floated.rd-navbar-static .rd-navbar-dropdown li .rd-navbar-label, .rd-navbar-top-panel.rd-navbar-static .rd-navbar-dropdown li .rd-navbar-label, .rd-navbar-logo-center.rd-navbar-static .rd-navbar-dropdown li .rd-navbar-label, .rd-navbar-default.rd-navbar-static .rd-navbar-megamenu li .rd-navbar-label, .rd-navbar-floated.rd-navbar-static .rd-navbar-megamenu li .rd-navbar-label, .rd-navbar-top-panel.rd-navbar-static .rd-navbar-megamenu li .rd-navbar-label, .rd-navbar-logo-center.rd-navbar-static .rd-navbar-megamenu li .rd-navbar-label {
@@ -60557,7 +60558,9 @@ html .wrapper {
 #News {background-image: url("images/2017/slider-home-2.jpg");}
 #Contact {background-image: url("images/2017/Car-Owners-150x150.jpg");}
 #About {background-image: url("images/2017/imagesRolling.jpg");} */
-
+.rd-navbar-default.rd-navbar-transparent.rd-navbar-static .rd-navbar-nav > li a, .rd-navbar-default.rd-navbar-dark.rd-navbar-static .rd-navbar-nav > li a {
+	 
+}
 .button1 {
 	padding: 15px 25px;
 	font-size: 28px;
@@ -60700,5 +60703,41 @@ html .wrapper {
 		display: inline-block;
 		max-width: 100%;
 	}
+	
 }
+@media (min-width: 992px) {
+	.section-md-0 {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.section-md-34 {
+		padding-top: 34px;
+		padding-bottom: 34px;
+	}
+	.section-md-50 {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	.section-md-65 {
+		padding-top: 65px;
+		padding-bottom: 65px;
+	}
+	.section-md-90 {
+		padding-top: 90px;
+		padding-bottom: 90px;
+	}
+	.section-md-100 {
+		padding-top: 100px;
+		padding-bottom: 100px;
+	}
+	.section-md-110 {
+		padding-top: 110px;
+		padding-bottom: 110px;
+	}
+	.section-md-120 {
+		padding-top: 35px;
+		padding-bottom: 120px;
+	}
+}
+
 /*# sourceMappingURL=style.css.map */

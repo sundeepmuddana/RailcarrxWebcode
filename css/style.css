@@ -11449,8 +11449,10 @@ mark, .mark {
 .owl-carousel-present.owl-carousel-arrows .page .owl-next:hover, .page .text-mantis:before, .page .thumbnail-simple:hover .caption:before, .thumbnail-simple:hover .page .caption:before, .page .owl-carousel-present.owl-carousel-arrows .owl-prev:hover:before, .owl-carousel-present.owl-carousel-arrows .page .owl-prev:hover:before, .page
 .owl-carousel-present.owl-carousel-arrows .owl-next:hover:before,
 .owl-carousel-present.owl-carousel-arrows .page .owl-next:hover:before {
-	color: #0C6094;
-	background-image: -webkit-linear-gradient(0deg, #1970A6 0%, #2B82B7 100%);
+	color: #042438;
+	background-image: -webkit-linear-gradient(0deg, #009dff 0%, #fb0000 100%);
+	text-align:center;
+	margin-left:11%
 }
 
 .page .text-acapulco, .page .text-acapulco:before {
@@ -33198,6 +33200,7 @@ fieldset[disabled] .member-block-type-3 .btn-group
 
 .bg-deluge, .bg-butterfly-bush, .navbar-inverse, .context-dark, .swiper-slide-caption, .bg-deluge .btn-link, .bg-butterfly-bush .btn-link, .navbar-inverse .btn-link, .context-dark .btn-link, .swiper-slide-caption .btn-link, .bg-deluge .form-label, .bg-butterfly-bush .form-label, .navbar-inverse .form-label, .context-dark .form-label, .swiper-slide-caption .form-label, .bg-deluge .form-label-outside.focus, .bg-butterfly-bush .form-label-outside.focus, .navbar-inverse .form-label-outside.focus, .context-dark .form-label-outside.focus, .swiper-slide-caption .form-label-outside.focus, .bg-deluge .select2-container--bootstrap .select2-selection--single .select2-selection__rendered, .bg-butterfly-bush .select2-container--bootstrap .select2-selection--single .select2-selection__rendered, .navbar-inverse .select2-container--bootstrap .select2-selection--single .select2-selection__rendered, .context-dark .select2-container--bootstrap .select2-selection--single .select2-selection__rendered, .swiper-slide-caption .select2-container--bootstrap .select2-selection--single .select2-selection__rendered, .bg-deluge .select2-container--bootstrap .select2-selection, .bg-butterfly-bush .select2-container--bootstrap .select2-selection, .navbar-inverse .select2-container--bootstrap .select2-selection, .context-dark .select2-container--bootstrap .select2-selection, .swiper-slide-caption .select2-container--bootstrap .select2-selection, .bg-deluge h1, .bg-butterfly-bush h1, .navbar-inverse h1, .context-dark h1, .swiper-slide-caption h1, .bg-deluge .h1, .bg-butterfly-bush .h1, .navbar-inverse .h1, .context-dark .h1, .swiper-slide-caption .h1, .bg-deluge h2, .bg-butterfly-bush h2, .navbar-inverse h2, .context-dark h2, .swiper-slide-caption h2, .bg-deluge .h2, .bg-butterfly-bush .h2, .navbar-inverse .h2, .context-dark .h2, .swiper-slide-caption .h2, .bg-deluge h3, .bg-butterfly-bush h3, .navbar-inverse h3, .context-dark h3, .swiper-slide-caption h3, .bg-deluge .h3, .bg-butterfly-bush .h3, .navbar-inverse .h3, .context-dark .h3, .swiper-slide-caption .h3, .bg-deluge h4, .bg-butterfly-bush h4, .navbar-inverse h4, .context-dark h4, .swiper-slide-caption h4, .bg-deluge .h4, .bg-butterfly-bush .h4, .navbar-inverse .h4, .context-dark .h4, .swiper-slide-caption .h4, .bg-deluge h5, .bg-butterfly-bush h5, .navbar-inverse h5, .context-dark h5, .swiper-slide-caption h5, .bg-deluge .h5, .bg-butterfly-bush .h5, .navbar-inverse .h5, .context-dark .h5, .swiper-slide-caption .h5, .bg-deluge h6, .bg-butterfly-bush h6, .navbar-inverse h6, .context-dark h6, .swiper-slide-caption h6, .bg-deluge .h6, .bg-butterfly-bush .h6, .navbar-inverse .h6, .context-dark .h6, .swiper-slide-caption .h6 {
 	color: #fff;
+	text-align:  justify;
 }
 
 .bg-deluge .form-label.auto-fill, .bg-butterfly-bush .form-label.auto-fill, .navbar-inverse .form-label.auto-fill, .context-dark .form-label.auto-fill, .swiper-slide-caption .form-label.auto-fill {
@@ -60599,7 +60602,7 @@ html .wrapper {
 	padding: 0 0 13px;
 	font-size: 68%;
 	color: #45474a;
-	text-transform: uppercase;
+	text-transform: capitalize;
 	list-style-type: none;
 	cursor: pointer;
 	transition: color .2s ease-in;
@@ -60741,3 +60744,77 @@ html .wrapper {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+.fxRotateInRight {
+	-webkit-animation: rotateInRight 1s forwards;
+	animation: rotateInRight 1s forwards;
+}
+.subtitle-variant-3 {
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: .075em;
+}
+.fxRotateInLeft {
+	-webkit-animation: rotateInLeft 1s forwards;
+	animation: rotateInLeft 1s forwards;
+}
+
+.swiper-slide {
+	position: relative;
+	text-align: center;
+	white-space: nowrap;
+	background-position: center center;
+	overflow: hidden;
+}
+.swiper-slide-caption {
+	display: inline-block;
+	width: 100%;
+	margin-left: -.25em;
+	vertical-align: middle;
+	white-space: normal;
+	z-index: 1;
+}
+.jumbotron-custom {
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-flex-wrap: nowrap;
+	-ms-flex-wrap: nowrap;
+	flex-wrap: nowrap;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+@media (min-width: 768px) {
+	.jumbotron-custom-variant-1 hr,
+	.jumbotron-custom-variant-1 p {
+		display: block;
+	}
+	.jumbotron-custom-variant-1 * + h1 {
+		margin-top: 30px;
+	}
+}
+.context-dark, .bg-gray-dark, .bg-primary, .bg-secondary-3, .bg-blue-marguerite, .bg-secondary-6, .one-screen-page {
+	color: #fff;
+}
+.divider-sm {
+	max-width: 60px;
+	margin-left: auto;
+	margin-right: auto;
+}.divider-success {
+	border-top: 3px solid #bbf04a;
+}
+
+div.gallery {
+    margin: 5px;    
+    float: left;
+    width: 180px;
+}

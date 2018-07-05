@@ -60838,3 +60838,117 @@ div.gallery {
 ,.swiper-slide-caption h1{	color: #fff;
 	text-align: justify-content;
 }
+
+.rmsTextUL li h4{
+	    font-size: 20px !important;
+}
+
+.rmsTextUL ul li {
+left: 0 !important;
+}
+#connectorflex{
+	padding-left: 92% !important;
+    position: absolute !important;
+    top: 34px !important;
+    left: calc(76% - -9px) !important;
+    content: "" !important;
+    width: 40px !important;
+    height: 2px !important;
+    background: #0C6094 !important;
+    -webkit-transform: rotate(45deg) !important;
+    transform: rotate(0deg) !important;
+}
+#connectorflex1{
+    height: 2px;
+    width: 299px;
+    background: #0C6094;
+    display: none;
+    position: absolute;
+    left: calc(75% + 38px);
+    top: 50%;
+    margin-top: 38px;
+}
+#connectorflex2{
+    height: 2px;
+    width: 299px;
+    background: #0C6094;
+    display: none;
+    position: absolute;
+    left: calc(75% + 38px);
+    top: 50%;
+    margin-top: 38px;
+}
+#connectorfl1 {
+    height: 2px !important;
+    width: 437px !important;
+    background: #0C6094 !important;
+    display: none !important;
+    position: absolute !important;
+    /* left: calc(100% + 10px) !important; */
+    top: 64% !important;
+    margin-top: -1px !important;
+    display: block !important;
+}
+#connectorflex:after {
+    position: absolute;
+    top: -69px;
+    left: calc(65% - 20px);
+    content: "";
+    width: 154px;
+    height: 2px;
+    background: #0C6094;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(-118deg);
+}
+#connectorflex:before {
+    position: absolute;
+    content: "";
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-top: -6px;
+    margin-left: -141px;
+    top: -138px;
+    left: calc(100% + 60px);
+    background: #0C6094;
+}
+
+#bgImgDiv1{
+	color: white;
+	background-repeat: no-repeat;
+}
+
+#connectorEnter {
+	height: 2px;
+    width: 96px;
+    background: #0C6094;
+    /* display: none; */
+    position: absolute;
+    left: calc(96% + 10px);
+    top: 92%;
+    margin-top: -65px;
+    visibility: inherit;
+}
+#connectorEnter:after {
+    position: absolute;
+    top: -29px;
+    left: calc(100% - 13px);
+    content: "";
+    width: 83px;
+    height: 2px;
+    background: #0C6094;
+    -webkit-transform: rotate(45deg);
+	transform: rotate(-45deg);
+}
+#connectorEnter:before {
+    position: absolute;
+    content: "";
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-top: -6px;
+    margin-left: -6px;
+    top: -59px;
+    left: calc(100% + 60px);
+	background: #0C6094;
+}

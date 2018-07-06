@@ -178,13 +178,13 @@
                       <div class="cell-xs-12">
                         <h2 class="text-darkest">Turn Data into Actionable Insights </h2>
                         <h2> Empower your Decision-making Process</h2>
-                          <div class="offset-top-15">
-                          <h5 class="text-darkest text-bold">RailcarRx Insight® is the only system to
+                          <div class="offset-top-15" style="padding-top: 2% !important">
+                          <h4 class="text-darkest text-regular">RailcarRx Insight® is the only system to
                             <div>support railcar owners and shippers’ decisions to</div>
                             <div>optimize railcar fleet maintenance plan and save repair costs.</div>
                           </h5>
                         </div>
-                        <div class="offset-top-65 group" style="align-items: center;padding-left: 0%;">
+                        <div class="offset-top-65 group" style="align-items: center;padding-left: 0%; padding-top: 3% !important;">
                           <a class="btn btn-primary btn-icon btn-icon-left btn-sm" href="//www.templatemonster.com/intense-multipurpose-html-template.html?utm_source=livedemo&amp;utm_medium=themebutton&amp;utm_campaign=intense">
                             <span class="icon mdi "></span>Schedule a Demo</a>
 
@@ -204,8 +204,8 @@
 				  style="margin-top: -7%;float: none !important;margin-right:0 !important"/>
 			</div>
               <div></div>
-            <div class="shell" style="padding-top: 5% !important"
-              <h3>What RailcarRx Insight can do for you</h3>
+            <div class="shell" style="padding-top: 5% !important">
+              <h2>What RailcarRx Insight can do for you</h2>
               <h6>With RailcarRx Insight®, railcar owners and shippers can reduce railcar maintenance and repair costs,
                 <br class="veil reveal-lg-inline-block"> obtain a bird’s eye view of the entire railcar fleet, access industry data, monitor equipment health,
                 <br class="veil reveal-lg-inline-block"> and assess risk based on a configurable rules engine. </h6>
@@ -659,7 +659,7 @@
                       </div>
                       <div class="cell-md-5 cell-md-preffix-2 text-md-left offset-top-50 offset-md-top-0">
                         <div class="inset-sm-lef-100 offset-md-top-30 wow fadeInRight">
-                          <h3 class="text-regular" style="font-weight: bolder;color: white;">For Railcar Owners and Lessors</h3>
+                          <h3 class="text-regular" style="font-weight: bolder;color: #f9f6f6;font-size: 172%;margin-left: -11%;">For Railcar Owners and Lessors</h3>
                           <div class="offset-top-30 inset-md-right-100" style="color: white">
                             <p>
                               <div>Manage and analyze railcar fleet to better control the maintenance budget                        
@@ -699,7 +699,7 @@
                     </div>
                     <div class="cell-md-5 text-md-right cell-md-push-1 section-bottom-80 section-md-80"style="text-align: left;" style="padding-top: 5% !important;">
                       <div class="offset-md-top-30"style="text-align: left;">
-                        <h3 class="text-regular" style="font-weight: bolder;color:black; font-size: 172%">For Railcar Lessees and Shippers</h3>
+                        <h3 class="text-regular" style="font-weight: bolder;color:black;font-size: 172%;margin-left: -7%;">For Railcar Lessees and Shippers</h3>
                         <p>
                           Save repair costs especially AAR Repair Bills before the unplanned repairs happen
                           <br>
@@ -775,7 +775,11 @@
   <!-- Java script-->
   <script src="js/new/html5shiv.min.js"></script>
   <script>
+     
      $(".insightTabs li").click(function () {
+      $(".insightTabs li").css("background-color","white");
+      $(this).css("background-color","#E5E8E8");
+      
 //alert($(this).attr("id"));
 changeColor($(this).attr("id"));
     }) 
@@ -783,7 +787,8 @@ changeColor($(this).attr("id"));
     {
       if(tabId == "Fleet")
       {
-        $("#bgImgDiv1").css("background-color","#CCD1D1");
+        
+        $("#bgImgDiv1").css("background-color","#E5E8E8");
       }
       if(tabId == "Industry")
       {
@@ -791,27 +796,27 @@ changeColor($(this).attr("id"));
       }
       if(tabId == "Equipment")
       {
-        $("#bgImgDiv1").css("background-color","#ff0000a6");
+        $("#bgImgDiv1").css("background-color","#E5E8E8");
       }
       if(tabId == "Track")
       {
-        $("#bgImgDiv1").css("background-color","#55bbeb");
+        $("#bgImgDiv1").css("background-color","#E5E8E8");
       }
       if(tabId == "Shops")
       {
-        $("#bgImgDiv1").css("background-color","#f5bf2ff2");
+        $("#bgImgDiv1").css("background-color","#E5E8E8");
       }
       if(tabId == "Repair")
       {
-        $("#bgImgDiv1").css("background-color","#50c469");
+        $("#bgImgDiv1").css("background-color","#E5E8E8");
       }
       if(tabId == "Communicate")
       {
-        $("#bgImgDiv1").css("background-color","#9f462b");
+        $("#bgImgDiv1").css("background-color","#E5E8E8");
       }
       if(tabId == " Invoice")
       {
-        $("#bgImgDiv1").css("background-color","#4081abd6");
+        $("#bgImgDiv1").css("background-color","#E5E8E8");
       }
     }
    

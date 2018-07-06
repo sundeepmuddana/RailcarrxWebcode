@@ -227,7 +227,7 @@
                     <div class="range text-lg-left">
                         <div class="shell-wide">
                             <div>
-                                <h2>
+                                <h2 style="padding-bottom: 2% !important">
                                     <span class="big hb2">Our Services</span>
                                 </h2>
                             </div>
@@ -303,7 +303,7 @@
                             onclick="openPage('Home', this, 'image1')" id="defaultOpen"></button>
                         <button class="tablink button1" style="background-image: url(images/2017/buttons/buttonlogos/RailcarRxRMS_Small.png); background-repeat: no-repeat; padding: 3%;"
                             onclick="openPage('News', this, 'image2')" id="defaultOpen"></button>
-                        <button class="tablink button1" style="background-image: url(images/2017/buttons/buttonlogos/RailcarRx_TM.png); background-repeat: no-repeat; padding: 3%;"
+                        <button class="tablink button1" style="background-image: url(images/2017/buttons/buttonlogos/font.png); background-repeat: no-repeat; padding: 3%;"
                             onclick="openPage('About', this, 'image4')"></button>
                         <button class="tablink button1" style="background-image: url(images/2017/buttons/buttonlogos/Marketplace.png); background-repeat: no-repeat; padding: 3%;"
                             onclick="openPage('Contact', this, 'image3')"></button>
@@ -351,7 +351,7 @@
                                             </div>
                                             <div class="unit-body">
                                                 <div>
-                                                    <div class="h5 text-picton-dark" style="padding-left: 28%;">Rick Koenig, Director Fleet Repair & AAR Service, UTLX</div>
+                                                    <div class="h5 text-picton-dark" style="padding-left: 25% !important;">Rick Koenig, Director Fleet Repair & AAR Service, UTLX</div>
                                                 </div>
 
                                             </div>
@@ -382,7 +382,7 @@
                                             </div>
                                             <div class="unit-body">
                                                 <div>
-                                                    <div class="h5 text-picton-dark" style="padding-left: 28%;">Patrick Dial, CEO, Strataflex Midstream</div>
+                                                    <div class="h5 text-picton-dark" style="padding-left: 25% !important;">Patrick Dial, CEO, Strataflex Midstream</div>
                                                 </div>
                                                 <div>
 
@@ -414,7 +414,7 @@
                                             </div>
                                             <div class="unit-body">
                                                 <div>
-                                                    <div class="h5 text-picton-dark" style="padding-left: 28%;">Terrie Tolton, Accounting Manager, Freedom Railcar Solutions</div>
+                                                    <div class="h5 text-picton-dark" style="padding-left: 25% !important;">Terrie Tolton, Accounting Manager, Freedom Railcar Solutions</div>
                                                 </div>
                                                 <div>
 
@@ -478,7 +478,7 @@
                                     </div>
                                 </div>
                                 <div class="cell-xs-3 cell-sm-3 cell-md-3 cell-xl-1">
-                                    <div class="blurb-mini wow fadeInLeft" data-wow-delay="0.4s" style="margin-top: 13%;">
+                                    <div class="blurb-mini wow fadeInLeft" data-wow-delay="0.4s" style="margin-top: 8%;">
                                         <div>
                                             <img src="images/2017/logos/logo2-300x131.png" class="img1">
                                         </div>                                        
@@ -498,7 +498,7 @@
 
                                 <div class="cell-xs-3 cell-sm-3 cell-md-3 cell-xl-1">
                                     <div class="blurb-mini wow fadeInRight" data-wow-delay="0.4s">
-                                        <div style="padding-bottom:  15% !important;">
+                                        <div style="padding-top: 10% !important;padding-bottom: 15% !important;">
                                             <img src="images/2017/logos/LOGO-Dana-e1502918343276.jpg" class="img1">
                                         </div>
                                     </div>
@@ -688,6 +688,8 @@
 
             })
             function openPage(pageName, elmnt, image) {
+                $(".button1").removeClass("tabActive");
+                $(elmnt).addClass("tabActive");
                 if (image == "image1") {
 
                     document.getElementById("bgImgDiv").style.backgroundImage = "url('images/3.jpg')";
@@ -715,7 +717,7 @@
                     tablinks[i].style.backgroundColor = "";
                 }
                 document.getElementById(pageName).style.display = "block";
-                elmnt.style.backgroundColor = image;
+                //elmnt.style.backgroundColor = image;
 
             }
             // Get the element with id="defaultOpen" and click on it

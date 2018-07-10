@@ -60612,6 +60612,9 @@ html .wrapper {
 	cursor: pointer;
 	transition: color .2s ease-in;
 	font-weight: bold;
+	padding: 13px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 @media (min-width: 992px) {
 	.section-md-0 {

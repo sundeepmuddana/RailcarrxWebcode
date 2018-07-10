@@ -11428,6 +11428,7 @@ mark, .mark {
 .page blockquote.quote .text-dark,
 .page .text-dark {
 	color: #9b9b9b;
+	text-align: center;
 }
 
 .page a.text-dark:hover,
@@ -60940,27 +60941,27 @@ left: 0 !important;
     visibility: inherit;
 }
 #connectorEnter:after {
-    position: absolute;
-    top: -29px !important;
-    left: calc(100% - 13px) !important;
+	position: absolute;
+    top: 34px !important;
+    left: calc(100% - 18px) !important;
     content: "";
-    width: 83px !important;
+    width: 90px !important;
     height: 2px !important;
     background: #0C6094;
     -webkit-transform: rotate(45deg) !important;
-	transform: rotate(-45deg) !important;
+    transform: rotate(52deg) !important;
 }
 #connectorEnter:before {
     position: absolute !important;
     content: "";
     width: 12px !important;
-    height: 12px !important; 
+    height: 12px !important;
     border-radius: 50% !important;
     margin-top: -6px !important;
     margin-left: -6px !important;
-    top: -59px !important;
+    top: 74px !important;
     left: calc(100% + 60px) !important;
-	background: #0C6094 !important;
+    background: #0C6094 !important;
 }
 
 #connectorQuick {
@@ -61005,4 +61006,22 @@ left: 0 !important;
 	margin-bottom: auto;
 	height: 680px;
     width: 1212px;
+}
+.btn1 {
+    background-color: white;
+	color: blue;
+	width: 20px;
+	height: 20px;
+    border: 2px solid #e7e7e7;
+}
+.btn-anis-effect:after {
+	position: absolute;
+	top: 50%;
+	content: '';
+	width: 20px;
+	height: 20px;
+	/* background: #ffffff; */
+	border-radius: 50%;
+	transition: 0.5s;
+	z-index: -1;
 }

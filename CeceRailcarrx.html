@@ -299,13 +299,13 @@
                     </div>
                     <div class="container1" id="bgImgDiv" style="background-image: url(images/2017/rail.jpg);padding: 30px;">
                         <!-- <button class="tablink button1" style="background-image: url(images/2017/buttons/font.png); background-repeat: no-repeat; padding: 3%;" onclick="openPage('Home', this, 'image1')"/></button> -->
-                        <button class="tablink button1" style="background-image: url(images/2017/buttons/buttonlogos/InsightLogo.png); background-repeat: no-repeat; padding: 3%;"
+                        <button class="tablink button12" style="background-image: url(images/2017/buttons/buttonlogos/InsightLogo.png); background-repeat: no-repeat; padding: 3%;"
                             onclick="openPage('Home', this, 'image1')" id="defaultOpen"></button>
-                        <button class="tablink button1" style="background-image: url(images/2017/buttons/buttonlogos/RailcarRxRMS_Small.png); background-repeat: no-repeat; padding: 3%;"
+                        <button class="tablink button12" style="background-image: url(images/2017/buttons/buttonlogos/RailcarRxRMS_Small.png); background-repeat: no-repeat; padding: 3%; "
                             onclick="openPage('News', this, 'image2')" id="defaultOpen"></button>
-                        <button class="tablink button1" style="background-image: url(images/2017/buttons/buttonlogos/font.png); background-repeat: no-repeat; padding: 3%;"
+                        <button class="tablink button12" style="background-image: url(images/2017/buttons/buttonlogos/font.png); background-repeat: no-repeat; padding: 3%;"
                             onclick="openPage('About', this, 'image4')"></button>
-                        <button class="tablink button1" style="background-image: url(images/2017/buttons/buttonlogos/Marketplace.png); background-repeat: no-repeat; padding: 3%;"
+                        <button class="tablink button12" style="background-image: url(images/2017/buttons/buttonlogos/Marketplace.png); background-repeat: no-repeat; padding: 3%;"
                             onclick="openPage('Contact', this, 'image3')"></button>
 
 
@@ -342,21 +342,10 @@
                     <div class="owl-carousel owl-carousel-default owl-carousel-class-light owl-carousel-arrows veil-md-owl-dots veil-owl-nav reveal-md-owl-nav inset-left-7p inset-right-7p"
                         data-items="1" data-nav="true" data-dots="true" data-nav-class="[&quot;owl-prev mdi mdi-chevron-left&quot;, &quot;owl-next mdi mdi-chevron-right&quot;]">
                         <div>
-                            <div class="range range-xs-center">
+                            <div class="range range-xs-center feedback">
                                 <div class="cell-lg-8">
-                                    <div class="reveal-inline-block">
-                                        <div class="unit unit-xs unit-xs-horizontal unit-spacing-sm">
-                                            <div class="unit-left">
-                                                <!-- <img class="img-circle" width="60" height="60" src="images/users/user-alex-merphy-60x60.jpg" alt="Alex Merphy"/> -->
-                                            </div>
-                                            <div class="unit-body">
-                                                <div>
-                                                    <div class="h5" style="padding-left: 19% !important;padding-right: 9% !important">Rick Koenig, Director Fleet Repair & AAR Service, UTLX</div>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </div>
+                                    <p>Rick Koenig, Director Fleet Repair & AAR Service, UTLX</p>
+                                   
                                     <div class="offset-top-41">
                                         <!-- Quote Simple-->
                                         <hr class="hr hr-gradient" />
@@ -373,23 +362,25 @@
                             </div>
                         </div>
                         <div>
-                            <div class="range range-xs-center">
+                            <div class="range range-xs-center feedback">
                                 <div class="cell-lg-8">
-                                    <div class="reveal-inline-block">
+                                        <p>Patrick Dial, CEO, Strataflex Midstream</p>
+                                    <!--<div class="reveal-inline-block">
                                         <div class="unit unit-xs unit-xs-horizontal unit-spacing-sm text-xs-left">
                                             <div class="unit-left">
 
                                             </div>
-                                            <div class="unit-body">
+                                           
+                                             <div class="unit-body">
                                                 <div>
-                                                    <div class="h5 text-picton-dark">Patrick Dial, CEO, Strataflex Midstream</div>
+                                                    <div class="h5 ">Patrick Dial, CEO, Strataflex Midstream</div>
                                                 </div>
                                                 <div>
 
                                                 </div>
-                                            </div>
+                                            </div> 
                                         </div>
-                                    </div>
+                                    </div>-->
                                     <div class="offset-top-41">
                                         <!-- Quote Simple-->
                                         <hr class="hr hr-gradient" />
@@ -405,14 +396,16 @@
                             </div>
                         </div>
                         <div>
-                            <div class="range range-xs-center">
+                            <div class="range range-xs-center feedback">
                                 <div class="cell-lg-8">
-                                    <div class="reveal-inline-block">
+                                        <p>Terrie Tolton, Accounting Manager, Freedom Railcar Solutions</p>
+                                   <!-- <div class="reveal-inline-block">
                                         <div class="unit unit-xs unit-xs-horizontal unit-spacing-sm text-xs-left">
                                             <div class="unit-left">
 
                                             </div>
-                                            <div class="unit-body">
+                                            
+                                             <div class="unit-body">
                                                 <div>
                                                     <div class="h5 text-picton-dark">Terrie Tolton, Accounting Manager, Freedom Railcar Solutions</div>
                                                 </div>
@@ -421,7 +414,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> -->
                                     <div class="offset-top-41">
                                         <!-- Quote Simple-->
                                         <hr class="hr hr-gradient" />
@@ -688,7 +681,7 @@
 
             })
             function openPage(pageName, elmnt, image) {
-                $(".button1").removeClass("tabActive");
+                $(".button12").removeClass("tabActive");
                 $(elmnt).addClass("tabActive");
                 if (image == "image1") {
 

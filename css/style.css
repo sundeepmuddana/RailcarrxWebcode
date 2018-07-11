@@ -61271,7 +61271,7 @@ owl-carousel owl-carousel-style-2
     border-bottom-left-radius: 10%;
     border-top-left-radius: 10%;
     border-top-right-radius: 10%;
-    /* background-position: 50% 50%; */
+    background-position: 30% 10%;
 	border-left-style: solid;
 	padding: 16px 32px;
     text-align: center;
@@ -61287,7 +61287,7 @@ owl-carousel owl-carousel-style-2
 
 .button12:hover {
     background-color: rgb(247, 247, 247);
-    color: white;
+    color: rgb(27, 27, 27);
 }
 .feedback p{
 	text-align: center;

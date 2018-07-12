@@ -61293,3 +61293,35 @@ owl-carousel owl-carousel-style-2
 	text-align: center;
 	color: #9d4829;
 }
+#myVideo {
+	/* position: fixed; */
+	height: 141%;
+    width: 95%;
+    right: 0;
+    bottom: 0;
+    min-width: 10%; 
+    min-height: 10%;
+}
+
+/* .content {
+    position: fixed;
+    bottom: 50px;    
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+} */
+
+#myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+#myBtn:hover {
+    background: #ddd;
+    color: black;
+}

@@ -808,13 +808,15 @@
   <!-- Java script-->
   <script src="js/new/html5shiv.min.js"></script>
   <script>
-
+$('.range').css("display","none");
     $(".insightTabs li").click(function () {
       $(".insightTabs li").css("background-color", "white");
       $(this).css("background-color", "#E5E8E8");
 
       //alert($(this).attr("id"));
       changeColor($(this).attr("id"));
+      $('.range').css("display","none");
+      $(this).css("display","block !important");
     })
     function changeColor(tabId) {
       if (tabId == "Fleet") {
@@ -845,7 +847,7 @@
     }
 
    // document.getElementById("defaultOpen").click();
-  </script>
+  </script> 
   <script>
     var video = document.getElementById("myVideo");
     var btn = document.getElementById("myBtn");
@@ -862,6 +864,6 @@
     </script>
 
 
-</body>
+    </body>
 
 </html>

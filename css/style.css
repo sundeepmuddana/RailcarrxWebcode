@@ -28074,7 +28074,7 @@ h1 .label-custom, h2 .label-custom, h3 .label-custom, h4 .label-custom, h5 .labe
 		position: absolute;
 		right: 30px;
 		left: 35px;
-		bottom: 28px;
+		bottom: -275px;
 		z-index: 1;
 	}
 }
@@ -61326,4 +61326,18 @@ owl-carousel owl-carousel-style-2
 #myBtn:hover {
     background: #ddd;
     color: black;
+}
+.post-h3title{
+	color:white;
+
+}
+.page-content{
+	text-align: justify !important;
+}
+.rmsblog-p{
+	text-align: -webkit-center;
+
+}
+.rmsblog-strong{
+	font-size: 16px !important;
 }

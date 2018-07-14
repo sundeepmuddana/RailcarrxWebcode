@@ -60530,7 +60530,7 @@ html .wrapper {
 	background: #0c6094;
 }
 .rd-navbar-default.rd-navbar-transparent.rd-navbar-static .rd-navbar-nav > li a, .rd-navbar-default.rd-navbar-dark.rd-navbar-static .rd-navbar-nav > li a {
-	color: #0a0a0a;
+	color: #9d472a;
 }
 
 
@@ -61251,9 +61251,11 @@ owl-carousel owl-carousel-style-2
 }
 
 .button1 {
-    background-color: rgb(157, 71, 42);
-    color: black;
-    border: 2px solid #f54b0f;
+	background-color: transparent;
+    color: #fffbfb;
+    font-size: 24px;
+    border-color: #fff;
+    border: 2px solid #f2f3f3;
 }
 .button1:hover {
     background-color: rgb(247, 247, 247);

@@ -299,7 +299,7 @@
                     </div>
                     <div class="container1" id="bgImgDiv" style="background-image: url(images/2017/rail.jpg);padding: 30px;">
                         <!-- <button class="tablink button1" style="background-image: url(images/2017/buttons/font.png); background-repeat: no-repeat; padding: 3%;" onclick="openPage('Home', this, 'image1')"/></button> -->
-                        <button class="tablink button12" style="background-image: url(images/2017/buttons/buttonlogos/lo/1.png); background-repeat: no-repeat; padding: 4%;"
+                        <button class="tablink button12 tabActive" style="background-image: url(images/2017/buttons/buttonlogos/lo/1.png); background-repeat: no-repeat; padding: 4%;"
                             onclick="openPage('Home', this, 'image1')" id="defaultOpen"></button>
                         <button class="tablink button12" style="background-image: url(images/2017/buttons/buttonlogos/lo/2.png); background-repeat: no-repeat; padding: 4%; "
                             onclick="openPage('News', this, 'image2')" id="defaultOpen"></button>
@@ -680,6 +680,7 @@
             $().click(function () {
 
             })
+           // $(".butmain").css("box-shadow","0 20px 25px 5px rgba(0,0,0,0.5) !important;");
             function openPage(pageName, elmnt, image) {
                 $(".button12").removeClass("tabActive");
                 $(elmnt).addClass("tabActive");

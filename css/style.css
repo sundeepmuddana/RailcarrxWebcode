@@ -60591,7 +60591,8 @@ html .wrapper {
 	transform: translateY(4px);
   }
   .tabActive{
-	box-shadow: 0 20px 25px 5px rgba(0,0,0,0.5) !important;
+	/* box-shadow: 0 20px 25px 5px rgba(0,0,0,0.5) !important; */
+	box-shadow: 0 35px 20px #ffffff !important;
   }
   .shell-fluid {
 	margin-right: auto;
@@ -61335,9 +61336,36 @@ owl-carousel owl-carousel-style-2
 	text-align: justify !important;
 }
 .rmsblog-p{
-	text-align: -webkit-center;
-
+	font-size: 16px !important;
+	text-align: center !important;
 }
 .rmsblog-strong{
 	font-size: 16px !important;
+}
+#blog{
+	font-size: 16px !important;
+	text-align: justify;
+}
+.blogimg{
+	text-align: center !important;
+}
+#comments blog{
+	text-align: justify;
+}
+.single_title{
+	text-align: justify;
+
+}
+.comment-reply-title
+{
+	text-align: justify;
+}
+.comment-notes{
+	text-align: justify;
+
+}
+.astrong{
+	font-weight:700;
+	font-size: 16px !important;
+	color: black;
 }

@@ -60591,8 +60591,8 @@ html .wrapper {
 	transform: translateY(4px);
   }
   .tabActive{
-	/* box-shadow: 0 20px 25px 5px rgba(0,0,0,0.5) !important; */
-	box-shadow: 0 35px 20px #ffffff !important;
+	 box-shadow: 0 20px 25px 5px #ffffff !important; /*rgba(0,0,0,0.5)*/
+	/* box-shadow: 0 35px 20px #ffffff !important; */
   }
   .shell-fluid {
 	margin-right: auto;

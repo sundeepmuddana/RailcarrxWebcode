@@ -33206,7 +33206,7 @@ fieldset[disabled] .member-block-type-3 .btn-group
 }
 
 .bg-deluge .form-label.auto-fill, .bg-butterfly-bush .form-label.auto-fill, .navbar-inverse .form-label.auto-fill, .context-dark .form-label.auto-fill, .swiper-slide-caption .form-label.auto-fill {
-	color: #212121;
+	color: #ccc7c7;
 }
 
 .bg-deluge .countdown-custom .countdown-amount, .bg-butterfly-bush .countdown-custom .countdown-amount, .navbar-inverse .countdown-custom .countdown-amount, .context-dark .countdown-custom .countdown-amount, .swiper-slide-caption .countdown-custom .countdown-amount, .bg-deluge .countdown-custom .countdown-period, .bg-butterfly-bush .countdown-custom .countdown-period, .navbar-inverse .countdown-custom .countdown-period, .context-dark .countdown-custom .countdown-period, .swiper-slide-caption .countdown-custom .countdown-period {
@@ -56250,13 +56250,21 @@ body.rtl .tp-kbimg {
 }
 
 .material-parallax img {
-	display: none;
+	/* display: none;
 	position: absolute;
 	left: 50%;
 	bottom: 0;
-	min-width: 101%;
+	min-width: 60%;
 	min-height: 101%;
-	transform: translate3d(-50%, 0, 0);
+	transform: translate3d(-50%, 0, 0); */
+	display: none;
+    position: absolute;
+    left: 50%;
+    bottom: 28%;
+    min-width: 60%;
+    padding-top: 182%;
+    min-height: 137%;
+    text-align: center;
 }
 
 .parallax-content {
@@ -61274,7 +61282,7 @@ owl-carousel owl-carousel-style-2
     border-bottom-left-radius: 10%;
     border-top-left-radius: 10%;
     border-top-right-radius: 10%;
-    background-position: 50% 25%;
+    background-position: 50% 50%;
 	border-left-style: solid;
 	padding: 16px 32px;
     text-align: center;

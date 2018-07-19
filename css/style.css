@@ -61405,3 +61405,7 @@ owl-carousel owl-carousel-style-2
 	margin-right: -28% !important;
 	margin-top: 10% !important;
 }
+.text-bolds{
+	font-weight: 600;
+    font-size: 32px;
+}

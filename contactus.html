@@ -402,15 +402,14 @@
         <script src="te/js/jquery.countTo.js"></script>
         <script>
             $('#_submit').click(function(){
-                $.ajax({
-                    type:"post",
-                    url:"http://localhost:59924/api/Email",
-                    data:{ToEmail: "a@b.com", body: "hello" },
-                    contentType: "application/json",
-                    success(data){
-
-                    }
-                })
+                $.post("http://localhost:50248/api/ContactData",
+        {
+          name: "Donald Duck",
+          city: "Duckburg"
+        },
+        function(data,status){
+            alert("Data: " + data + "\nStatus: " + status);
+        });
             })
         </script>         
 </body>

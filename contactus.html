@@ -402,7 +402,6 @@
         <!-- Counters -->
         <script src="te/js/jquery.countTo.js"></script>
         <script>
-<<<<<<< HEAD
             $('#_submit').click(function () {             
                 $.ajax('http://localhost:59924/api/Email', {
                     type: "post",
@@ -424,19 +423,6 @@
                 });
             });
         </script>
-=======
-            $('#_submit').click(function(){
-                $.post("http://localhost:50248/api/ContactData",
-        {
-          name: "Donald Duck",
-          city: "Duckburg"
-        },
-        function(data,status){
-            alert("Data: " + data + "\nStatus: " + status);
-        });
-            })
-        </script>         
->>>>>>> f1d48ea293172f6f8e7d6a889cc8ff77ffd3d414
 </body>
 
 </html>

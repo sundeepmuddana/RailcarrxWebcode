@@ -60537,9 +60537,9 @@ html .wrapper {
 	color: #fff;
 	background: #0c6094;
 }
-.rd-navbar-default.rd-navbar-transparent.rd-navbar-static .rd-navbar-nav > li a, .rd-navbar-default.rd-navbar-dark.rd-navbar-static .rd-navbar-nav > li a {
+/* .rd-navbar-default.rd-navbar-transparent.rd-navbar-static .rd-navbar-nav > li a, .rd-navbar-default.rd-navbar-dark.rd-navbar-static .rd-navbar-nav > li a {
 	color: #9d472a;
-}
+} */
 
 
 .tablink {
@@ -60566,17 +60566,6 @@ html .wrapper {
     height: 100%;
 }
 
-/* #Home {background-color: red;}
-#News {background-color: green;}
-#Contact {background-color: blue;}
-#About {background-color: orange;} */
-/* #Home {background-image: url("images/2017/5380091-railway.jpg");}
-#News {background-image: url("images/2017/slider-home-2.jpg");}
-#Contact {background-image: url("images/2017/Car-Owners-150x150.jpg");}
-#About {background-image: url("images/2017/imagesRolling.jpg");} */
-.rd-navbar-default.rd-navbar-transparent.rd-navbar-static .rd-navbar-nav > li a, .rd-navbar-default.rd-navbar-dark.rd-navbar-static .rd-navbar-nav > li a {
-	 
-}
 .button1 {
 	padding: 15px 25px;
 	font-size: 28px;
@@ -61430,3 +61419,7 @@ margin-bottom: 5%;
 .thumbnails-simple .thumbnails-wrap img {
 	width: 61%;
 }
+a:hover, a:active, a:focus {
+	color: #9d4829;
+	outline: none;
+  }

@@ -24,13 +24,13 @@ body {
 }
 
 a {
-  color: #FA5555;
+  color: #9f472a;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #FA5555;
+  color: #9f472a;
   outline: none;
 }
 
@@ -726,7 +726,7 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
 }
 .fh5co-blog .desc {
-  width: 100%;
+  width: 83.6%;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;

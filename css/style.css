@@ -24413,7 +24413,7 @@ a.thumbnail:hover {
 	display: block;
 	transition: .3s;
 	pointer-events: auto;
-	box-shadow: 0 0 0 0 rgba(25, 25, 25, 0);
+	box-shadow: 0 0 0 0 transparent;
 }
 
 .thumbnail-simple .thumbnail-wrap img {
@@ -24429,7 +24429,7 @@ a.thumbnail:hover {
 	left: 0;
 	right: 0;
 	transition: .3s;
-	background: rgba(25, 25, 25, 0);
+	background: transparent;
 }
 
 .thumbnail-simple .caption {
@@ -24444,11 +24444,11 @@ a.thumbnail:hover {
 
 .thumbnail-simple:hover .thumbnail-wrap {
 	top: -10px;
-	box-shadow: 0 0 21px 0 rgba(25, 25, 25, 0.2);
+	box-shadow: 0 0 21px 0 transparent;
 }
 
 .thumbnail-simple:hover .thumbnail-wrap:before {
-	background: rgba(25, 25, 25, 0.3);
+	background: transparent;
 }
 
 .thumbnail-simple * + .caption {
@@ -61421,3 +61421,15 @@ a:hover, a:active, a:focus {
 	color: #9d4829;
 	outline: none;
   }
+.fh5co-blog .desc {
+    width: 84.2%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    background: #f2f2f2;
+}

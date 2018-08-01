@@ -13633,8 +13633,7 @@ html.lt-ie11 .btn-santos-svg:hover {
 }
 
 .section-image-aside-right .section-image-aside-img {
-	left: 100%;
-	 bottom:-271px; 
+	left: 106%; 
 }
 
 .section-code {
@@ -60906,29 +60905,28 @@ left: 0 !important;
 	margin-top: -11%;
 }
 #connectorflex:after {
-	position: absolute;
-    top: -19px;
+    position: absolute;
+    top: -23px;
     left: calc(25% - 2px);
     content: "";
-    width: 141px;
+    width: 82px;
     height: 2px;
     background: #0C6094;
     /* -webkit-transform: rotate(45deg); */
     transform: rotate(-180deg);
 }
 #connectorflex:before {
-	position: absolute;
+    position: absolute;
     content: "";
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    margin-top: -38px;
-    margin-left: -50%;
+    margin-top: -41px;
+    margin-left: -70%;
     top: 12px;
     left: calc(100% + 60px);
     background: #0C6094;
 }
-
 #bgImgDiv1{
 	color: black;
 	background-repeat: no-repeat;
@@ -60971,14 +60969,14 @@ left: 0 !important;
 
 #connectorQuick {
 	height: 2px !important;
-    width: 259px !important;
+    width: 170px !important;
     background: #0C6094;
     /* display: none; */
     position: absolute !important;
     left: calc(94% + 23px) !important;
-    top: -38% !important;
-    transform: rotate(-46deg);
-    margin-top: 30px !important;
+    top: -61% !important;
+    transform: rotate(-37deg);
+    margin-top: 7px !important;
     margin-left: -9% !important;
 }
 #connectorQuick:before {
@@ -61434,4 +61432,20 @@ a:hover, a:active, a:focus {
     -webkit-flex-wrap: wrap;
     -moz-flex-wrap: wrap;
     background: #f2f2f2;
+}
+.rmsh4{
+	font-size: 105.25%;
+    font-weight: 300;
+	color: black;
+	text-align: justify;
+}
+.rmsh4n{
+	font-size: 105.25%;
+    font-weight: 300;
+	color: black;
+	text-align: -webkit-auto;
+}
+.rmsrev{
+background-attachment: #0c5f94;
+color:white;
 }

@@ -25219,10 +25219,11 @@ fieldset[disabled] .box-planning-type-4.active .btn-default {
 }
 
 .rd-navbar-default.rd-navbar-static .rd-navbar-nav > li > a, .rd-navbar-default.rd-navbar-fixed .rd-navbar-nav li a {
-	font-size: 12px;
-	font-weight: 700;
-	line-height: 24px;
+	font-size: 13px;
+    font-weight: 900;
+    line-height: 24px;
 	text-transform: uppercase;
+	letter-spacing: 0.06em;
 }
 
 .rd-navbar {

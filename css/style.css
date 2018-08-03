@@ -32436,7 +32436,7 @@ fieldset[disabled] .box-planning-type-4
 	display: inline-block;
 	transition: width 0.5s ease;
 	white-space: nowrap;
-	width: 1000px !important;
+	/* width: 1000px !important; */
 }
 
 /** 2.49 Jumbotron Addons */
@@ -34558,6 +34558,7 @@ fieldset[disabled] .swiper-slide-caption
 	display: inline-block;
 	vertical-align: middle;
 	letter-spacing: 0.06em;
+	
 }
 
 .rd-navbar-default.rd-navbar-static .rd-navbar-nav > li > a:after, .rd-navbar-floated.rd-navbar-static .rd-navbar-nav > li > a:after, .rd-navbar-top-panel.rd-navbar-static .rd-navbar-nav > li > a:after {
@@ -61220,7 +61221,7 @@ owl-carousel owl-carousel-style-2
 		color: #1a6fa6;
 		/* background-image: -webkit-linear-gradient(0deg, #1970A6 0%, #1970A6 100%); */
 		text-align:center;
-		margin-left:11%;
+		/* margin-left:11%; */
 	}
 	.btn-anis-effect:before, .btn-anis-effect:after {
 	position: absolute;
@@ -61455,6 +61456,7 @@ a:hover, a:active, a:focus {
 background-attachment: #0c5f94;
 color:white;
 }
+<<<<<<< HEAD
 /* Create two equal columns that floats next to each other */
 .column {
     float: left;
@@ -61480,3 +61482,17 @@ color:white;
 .rmsheader{
 	margin-left: -23%;
 }
+=======
+#rmsh6{
+	margin-bottom: 10%;
+    text-align: justify;
+    font-size: 18px;
+}
+#rmsp{
+	font-size: 18px;
+}
+#rmspleft{
+	font-size: 18px;
+	text-align: left;
+}
+>>>>>>> ca506c401e45662ea15b9b56c70484f4b7c53ad1

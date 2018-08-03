@@ -61455,3 +61455,28 @@ a:hover, a:active, a:focus {
 background-attachment: #0c5f94;
 color:white;
 }
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 100%;
+    padding: 10px;
+    height: 600px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.rmsig{
+	margin-bottom: -12%;
+    margin-top: -50px;
+    margin-left: -70%;
+}
+.rmsim{
+	margin-left: -77%;
+}
+.rmsheader{
+	margin-left: -23%;
+}

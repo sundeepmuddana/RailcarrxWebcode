@@ -61456,7 +61456,6 @@ a:hover, a:active, a:focus {
 background-attachment: #0c5f94;
 color:white;
 }
-<<<<<<< HEAD
 /* Create two equal columns that floats next to each other */
 .column {
     float: left;
@@ -61477,12 +61476,11 @@ color:white;
     margin-left: -70%;
 }
 .rmsim{
-	margin-left: -77%;
+	margin-left: -79%;
 }
 .rmsheader{
 	margin-left: -23%;
 }
-=======
 #rmsh6{
 	margin-bottom: 10%;
     text-align: justify;
@@ -61495,4 +61493,3 @@ color:white;
 	font-size: 18px;
 	text-align: left;
 }
->>>>>>> ca506c401e45662ea15b9b56c70484f4b7c53ad1

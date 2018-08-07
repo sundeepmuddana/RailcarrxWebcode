@@ -26083,7 +26083,7 @@ a.icon {
 	background: -webkit-linear-gradient(45deg, #42b574 0%, #84c450 100%);
 	background: -o-linear-gradient(45deg, #42b574 0%, #84c450 100%);
 	background: -ms-linear-gradient(45deg, #42b574 0%, #84c450 100%);
-	background: linear-gradient(45deg, #42b574 0%, #84c450 100%);
+	background: linear-gradient(45deg, #9d462a 0%, #9e462a 100%);
 }
 
 .icon-pink-filled {
@@ -61492,4 +61492,9 @@ color:white;
 #rmspleft{
 	font-size: 18px;
 	text-align: left;
+}
+#rmshgimg{
+	width: 190%;
+    margin-left: -88%;
+    margin-top: -11%;
 }

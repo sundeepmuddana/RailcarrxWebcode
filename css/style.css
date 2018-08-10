@@ -61504,3 +61504,24 @@ color:white;
 	font-size: 18px;
 	color: black;
 }
+.columnser {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.rowser:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.column11{
+	width:50%;
+	float: left;
+}
+.column12{
+	width:50%;
+	float: Right;
+}

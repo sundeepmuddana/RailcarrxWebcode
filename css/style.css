@@ -61441,6 +61441,21 @@ a:hover, a:active, a:focus {
 	text-align: justify;
 }
 .rmsh4n{
+	padding-top: 7%;
+	font-size: 135.25%;
+    font-weight: 300;
+	color: black;
+	text-align: -webkit-auto;
+}
+.rmsh4icon{
+	padding-top: 5%;
+	font-size: 135.25%;
+    font-weight: 300;
+	color: black;
+	text-align: -webkit-auto;
+}
+.rmsh4iconn{
+	padding-top: 7%;
 	font-size: 135.25%;
     font-weight: 300;
 	color: black;

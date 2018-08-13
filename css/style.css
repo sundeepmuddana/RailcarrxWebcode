@@ -61501,6 +61501,7 @@ color:white;
     text-align: justify;
     font-size: 16px;
     color: #2e2c2c;
+    transition: 0.5s;
 }
 #rmsp{
 	font-size: 18px;

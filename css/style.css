@@ -61499,7 +61499,8 @@ color:white;
 #rmsh6{
 	margin-bottom: 10%;
     text-align: justify;
-    font-size: 18px;
+	font-size: 18px;
+	color:black;
 }
 #rmsp{
 	font-size: 18px;
@@ -61507,6 +61508,16 @@ color:white;
 #rmspleft{
 	font-size: 18px;
 	text-align: left;
+	color: black;
+}
+#rmsspleft{
+	text-align: justify;
+    font-size: 18px;
+}
+#rmssspleft{
+	text-align: justify;
+    color: black;
+    font-size: 18px;
 }
 #rmshgimg{
 	width: 190%;

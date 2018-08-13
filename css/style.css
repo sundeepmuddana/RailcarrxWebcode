@@ -61504,21 +61504,23 @@ color:white;
     transition: 0.5s;
 }
 #rmsp{
-	font-size: 18px;
+	font-size: 16px;
 }
 #rmspleft{
-	font-size: 18px;
-	text-align: left;
-	color: black;
+	text-align: justify;
+    font-size: 16px;
+    color: #2e2c2c;
+    transition: 0.5s;
 }
 #rmsspleft{
 	text-align: justify;
-    font-size: 18px;
+    font-size: 16px;
 }
 #rmssspleft{
-	text-align: justify;
-    color: black;
-    font-size: 18px;
+    text-align: justify;
+    font-size: 16px;
+    color: #2e2c2c;
+    transition: 0.5s;
 }
 #rmshgimg{
 	width: 190%;
@@ -61528,7 +61530,7 @@ color:white;
 #servh6{
 	margin-bottom: 10%;
     text-align: justify;
-	font-size: 18px;
+	font-size: 16px;
 	color: black;
 }
 .columnser {

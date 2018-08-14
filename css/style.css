@@ -61554,3 +61554,11 @@ color:white;
 	width:50%;
 	float: Right;
 }
+#posttile{
+	display: inline-block;
+    text-align: justify;
+    font-size: 16px;
+    color: #2e2c2c;
+    -webkit-transform: translate(0, -1px);
+    transform: translate(0, -1px);
+}

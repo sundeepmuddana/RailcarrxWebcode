@@ -61568,3 +61568,8 @@ color:white;
     color: #2e2c2c;
     transition: 0.5s;
 }
+.bg-acapulco-new {
+    fill: #0c6094;
+    background: #0c6094;
+    background: linear-gradient(90deg, #9d472b 0%, #9d482b 100%);
+}

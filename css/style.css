@@ -28013,7 +28013,7 @@ h1 .label-custom, h2 .label-custom, h3 .label-custom, h4 .label-custom, h5 .labe
 }
 
 .post-boxed .post-media img {
-	width: 100%;
+	width: 90%;
 	height: auto;
 	transition: .3s;
 	will-change: opacity;

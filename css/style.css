@@ -60836,8 +60836,8 @@ div.gallery {
     max-width: 100%;
     height: auto;
     float: right;
-    margin-right: 7%;
-    margin-top: -26%;
+    margin-right: 17%;
+    margin-top: -19%;
 }
 .page .text-bold, .page strong {
 	font-weight: 700;
@@ -61564,6 +61564,13 @@ color:white;
 #rmsh66 {
     margin-bottom: 2%;
     text-align: justify;
+    font-size: 16px;
+    color: #2e2c2c;
+    transition: 0.5s;
+}
+#rmsh666 {
+    margin-bottom: 2%;
+    text-align: -webkit-center;
     font-size: 16px;
     color: #2e2c2c;
     transition: 0.5s;

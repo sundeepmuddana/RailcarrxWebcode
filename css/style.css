@@ -61455,7 +61455,7 @@ a:hover, a:active, a:focus {
 	text-align: -webkit-auto;
 }
 .rmsh4iconn{
-	padding-top: 7%;
+	padding-top: 5%;
 	font-size: 135.25%;
     font-weight: 300;
 	color: black;
@@ -61564,6 +61564,20 @@ color:white;
 #rmsh66 {
     margin-bottom: 2%;
     text-align: justify;
+    font-size: 16px;
+    color: #2e2c2c;
+    transition: 0.5s;
+}
+#rmsh66o {
+    margin-bottom: 2%;
+    text-align: justify;
+    font-size: 16px;
+    color: white;
+    transition: 0.5s;
+}
+#rmsh6668 {
+    margin-bottom: 2%;
+    text-align: -webkit-center;
     font-size: 16px;
     color: #2e2c2c;
     transition: 0.5s;

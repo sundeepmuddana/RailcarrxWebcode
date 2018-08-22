@@ -14,13 +14,26 @@
     <!-- Stylesheets-->
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Lato:300,300italic,400,700,900|Yesteryear">
     <link rel="stylesheet" href="css/style.css">
-    <!--[if lt IE 10]>
-    <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
-    <script src="js/html5shiv.min.js"></script>
-		<![endif]-->
+    <link rel="stylesheet" href="css/landingcss/style.css">
+    <link rel="stylesheet" href="css/tems.css">
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="te/css/animate.css">
+    <!-- Icomoon Icon Fonts-->
+    <link rel="stylesheet" href="te/css/icomoon.css">
+    <!-- Simple Line Icons -->
+    <link rel="stylesheet" href="te/css/simple-line-icons.css">
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" href="te/css/bootstrap.css">
+    <!-- Owl Carousel  -->
+    <link rel="stylesheet" href="te/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="te/css/owl.theme.default.min.css">
+    <!-- Style -->
+    <link rel="stylesheet" href="te/css/style.css">
+    <link rel="stylesheet" href="te/style.css">
 </head>
 
 <body>
+    <!-- Page-->
     <div class="page text-center">
         <!-- Page Head-->
         <header class="page-head slider-menu-position">
@@ -38,8 +51,8 @@
                             </button>
                             <!-- Navbar Brand-->
                             <div class="rd-navbar-brand">
-                                <a href="#home">
-                                    <img style='margin-top: -11px;margin-left: -17px;' width='158' height='48' src='images/RailcarRx_Trademarked.png' alt=''
+                                <a href="CeceRailcarrx.html">
+                                    <img style='margin-top: -11px;margin-left: 119px;' width='158' height='48' src='images/RailcarRx_Trademarked.png' alt=''
                                     />
                                 </a>
                             </div>
@@ -49,24 +62,37 @@
                                 <div class="rd-navbar-mobile-scroll">
                                     <!-- Navbar Brand Mobile-->
                                     <div class="rd-navbar-mobile-brand">
-                                        <a href="#home">
+                                        <a href="CeceRailcarrx.html">
                                             <img style='margin-top: -11px;margin-left: -17px;' width='158' height='48' src='images/RailcarRx_Trademarked.png' alt=''
                                             />
                                         </a>
                                     </div>
+                                    <div class="form-search-wrap">
+                                        <!-- RD Search Form-->
+                                        <form class="form-search rd-search" action="search-results.html" method="GET">
+                                            <div class="form-group">
+                                                <label class="form-label form-search-label form-label-sm" for="rd-navbar-form-search-widget">Search</label>
+                                                <input class="form-search-input input-sm form-control form-control-gray-lightest input-sm" id="rd-navbar-form-search-widget"
+                                                    type="text" name="s" autocomplete="off">
+                                            </div>
+                                            <button class="form-search-submit" type="submit">
+                                                <span class="mdi mdi-magnify"></span>
+                                            </button>
+                                        </form>
+                                    </div>
                                     <!-- RD Navbar Nav-->
-                                    <ul class="rd-navbar-nav">
-                                        <li class="active">
-                                            <a href="#home">
+                                    <ul class="rd-navbar-nav" style="margin-left: -24%; font-weight:600">
+                                        <li>
+                                            <a href="CeceRailcarrx.html">
                                                 <span class="text-middle" style="color:  black;">Home</span>
                                             </a>
                                         </li>
-                                        <li class="active">
+                                        <li>
                                             <a href="Aboutus.html">
                                                 <span class="text-middle" style="color:  black;">About us</span>
                                             </a>
                                         </li>
-                                        <li class="active">
+                                        <li>
                                             <a href="#ITSolutions">
                                                 <span class="text-middle" style="color:  black;">Products</span>
                                             </a>
@@ -93,18 +119,18 @@
                                                 </li>
                                             </ul>
                                         </li>
-                                        <li class="active">
+                                        <li>
                                             <a href="service.html">
                                                 <span class="text-middle" style="color:  black;">Services</span>
                                             </a>
                                             <ul class="rd-navbar-dropdown">
                                                 <li>
-                                                    <a href="#">
+                                                    <a href="ITProjects.html">
                                                         <span class="text-regular text-capitaliz">IT Projects</span>
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="#">
+                                                    <a href="ContractConsulting.html">
                                                         <span class="text-regular text-capitaliz">Contract Consulting</span>
                                                     </a>
                                                 </li>
@@ -120,12 +146,12 @@
                                                 </li>
                                             </ul>
                                         </li>
-                                        <li class="active">
+                                        <li>
                                             <a href="blog.html">
                                                 <span class="text-middle" style="color:  black;">Blog</span>
                                             </a>
                                         </li>
-                                        <li class="active">
+                                        <li>
                                             <a href="contactus.html">
                                                 <span class="text-middle" style="color:  black;">Contact us</span>
                                             </a>
@@ -136,243 +162,198 @@
                         </div>
                 </nav>
                 </div>
-                <!-- Page Content-->
-                <main class="page-content">
-                    <!-- Header Transparent-->
-                    <div id="home" data-type="anchor">
-                        <!-- style="padding-top: 107px;padding-left: 11%;padding-right: 11%;"> -->
-                        <div class="media rmsblog-p">
-                            <img src="images/blog/blogheader_pricing.jpg" style="width: 100%;padding-top: 4%;height: 30%;" alt="">
-                        </div>
-                    </div>
-                    <!-- Author Aside-->
-                    <section class="section-66 offset-top-24">
-                        <div class="shell">
-                            <div class="range">
-                                <div class="cell-md-3 offset-top-30">
+                <div id="home" data-type="anchor">
+                </div>
+        </header>
+        <!-- Page Content-->
+        <main class="page-content">
+            <section style="margin-top: 6% !important;">
+                <div class="row">
+                    <div class="col-sm-3 col-sm-push-1" style="padding-top:7% !important;margin-left:  2% !important;">
+                        <h5 style="text-align: -webkit-auto; color: #9e472a;">??</h5>
+                        <h5 style="text-align: -webkit-auto;"> ??</h5>
 
-                                </div>
-                                <div class="cell-md-12 text-left" style="margin-top:-10% !important">
-                                        <h4 class="offset-top-50 text-left">How Repair Shops can Capture more Revenue by Changing Pricing Approach</h4>
-                            
-                                        <p class="text-left">
-                                        Is your repair shop losing bids to gain new customers? Perhaps your approach to capturing
-                                        new business needs some tweaking.</p>
-                                    <p>
-                                        Repair shops are constantly looking for ways to win more business from equipment owners. Equipment owners evaluate repair
-                                        shops on several factors when deciding to enter an agreement with them. Quality of
-                                        work, capacity, and cost are few major factors in this decision. RailcarRx Repair
-                                        Shop helps to manage capacity planning and definitely can help when it comes to managing
-                                        customer specific labor rates.
-                                    </p>
-                                    <p>At RailcarRx we believe in using successful ideas from other industries and applying
-                                        them to rail. For example, when I think back to any contract I have signed for a
-                                        service, I realize that I chose that provider based on the best rates (when services
-                                        are comparable). To “sweeten the pot” the service provider may offer a multi-year
-                                        contract with introductory rates for the first year, then each subsequent year the
-                                        rates increase per the agreement. Think cable or internet providers here, for example,
-                                        my internet provider charges me an introductory rate of $35 per month year one, then
-                                        year two and three the rate increases to $45 per month.
-                                    </p>
-                                    <p>RailcarRx thought “why not apply this same methodology to railcar repairs?” Most repair
-                                        shops that are performing contract repairs provide car owners or maintenance responsible
-                                        parties with a negotiated rate for labor, material markups, etc. Shops may be able
-                                        to win more customers by providing an introductory labor rate of $75 per hour for
-                                        year one, then the rates increase years 2 & 3 for example.
-                                    </p>
-                                    <p>Some shops are already offering this type of pricing model, however, the majority of
-                                        off-the-shelf shop systems do not provide functionality to effectively manage when
-                                        and how rates expire and new rates are applied. These systems force users to manually
-                                        update rates after they have expired. As we know, adding any manual manipulation
-                                        will almost always be a point of failure. Meaning that customers may continue to
-                                        enjoy the same introductory rates you provided to win their business for the life
-                                        of the agreement. Good for the car owners, not so good for the shop.
-                                    </p>
-                                    <p>RailcarRx Repair Shop takes this concept and applies it to repair rates using the tiered
-                                        pricing feature in our solution. This provides repair shops the flexibility to get
-                                        more creative with pricing and material markups to help attract more customers. RailcarRx
-                                        Repair Shop allow shops to have an unlimited number of pricing tiers that automatically
-                                        expire when a new tier’s effective date is reached. No manual updates required, no
-                                        human error.</p>
-                                    <p>In the screen shot below, from the RailcarRx Repair Shop solution, a shop can set effective
-                                        dates for each pricing tier, applicable labor rates, material markups, and other
-                                        rate types as well. The area highlighted within the red box shows the effective date
-                                        of each pricing tier, the standard labor and tank car rates, and material markup
-                                        rate. As each effective date passes, the previous pricing tier expires.</p>
-                                    <p>As consumer spending and confidence continues to grow, both the economy and the rail
-                                        industry will share in the success from this renewed forward momentum.</p>
-                                    <div id="attachment_801" style="width: 970px;padding-left: 19% !important;" class="wp-caption aligncenter blogimg">
-                                        <a href="http://www.railcarrx.com/wp-content/uploads/2016/08/Tiered-Pricing-Example-RailcarRx.png" rel="attachment wp-att-801">
-                                            <img class="wp-image-801 size-large" src="http://www.railcarrx.com/wp-content/uploads/2016/08/Tiered-Pricing-Example-RailcarRx-1024x353.png"
-                                                alt="RailcarRx Repair Shop offers users the ability to setup tiered pricing for customers"
-                                                width="960" height="331" srcset="http://www.railcarrx.com/wp-content/uploads/2016/08/Tiered-Pricing-Example-RailcarRx-1024x353.png 1024w, http://www.railcarrx.com/wp-content/uploads/2016/08/Tiered-Pricing-Example-RailcarRx-300x103.png 300w, http://www.railcarrx.com/wp-content/uploads/2016/08/Tiered-Pricing-Example-RailcarRx-768x264.png 768w, http://www.railcarrx.com/wp-content/uploads/2016/08/Tiered-Pricing-Example-RailcarRx.png 1118w"
-                                                sizes="(max-width: 960px) 100vw, 960px">
-                                        </a>
-                                        <p class="wp-caption-text">RailcarRx Repair Shop offers users the ability to setup tiered pricing for customers</p>
-                                    </div>
-                                    <p>
-                                        <strong class="astrong">In this current business environment repair shops need to market their services and
-                                            rates differently than their competitors. RailcarRx Repair Shop provides the
-                                            edge for a shop to easily offer and manage a tiered pricing structure that automatically
-                                            manages itself. How could your shop benefit from this ability?</strong>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                    <section>
-                        <!-- <div class="parallax-container" data-parallax-img="images/backgrounds/background-05-1920x960.jpg">
-              <div class="parallax-content">
-                <section style="min-height: 160px; padding-bottom: 31.25%;"></section>
-              </div>
-            </div> -->
-                    </section>
-                    <!-- Conclusion-->
-                    <section class="section-66 section-bottom-124">
-                        <div class="shell">
-                            <div class="range range-xs-center range-lg-left">
-                                <div class="cell-xs-10 cell-sm-9 text-left">
-                                    <!-- <h6 class="text-bolds">Conclusion</h6>
-                                    <p>What other techniques do you have for promoting a blog/generating traffic? Kindly share
-                                        in the comments section.
-                                    </p>
-                                    <p>P.S: If you need more help or guidance, feel free to leave a comment below. And if you
-                                        have your own strategies to drive traffic to your blog, don’t be shy to share.</p> -->
-                                    <footer class="offset-top-50 text-sm-left clearfix">
-                                        <div class="group">
-                                            <a class="btn btn-danger btn-icon btn-icon-left" href="#">
-                                                <span class="icon icon-xs mdi mdi-heart"></span>like
-                                                <span class="badge">521</span>
-                                            </a>
-                                            <a class="btn btn-info btn-icon btn-icon-left" href="#">
-                                                <span class="icon icon-xs mdi mdi-facebook"></span>Share on facebook</a>
-                                            <a class="btn btn-sapphire btn-icon btn-icon-left" href="#">
-                                                <span class="icon icon-xs mdi mdi-tumblr"></span>Share on Tumblr</a>
-                                        </div>
-                                    </footer>
-                                    <div class="offset-top-34">
-                                        <div class="group-xs">
-                                            <a class="btn btn-xs btn-default" href="#">Web</a>
-                                            <a class="btn btn-xs btn-default" href="#">UX</a>
-                                            <a class="btn btn-xs btn-default" href="#">Marketing</a>
-                                            <a class="btn btn-xs btn-default" href="#">News</a>
-                                        </div>
-                                    </div>
-                                    <!-- <hr class="offset-top-66"> -->
-                                    <!--   <h4 class="offset-top-66 text-uppercase text-spacing-120 text-center text-bold">Related Posts</h4> -->
-                                    <div class="range offset-top-41 range-sm-center">
-                                        <div class="cell-sm-10">
-                                            <hr class="offset-top-66">
-                                            <!-- <h4 class="offset-top-66 text-uppercase text-spacing-120 text-center text-bolds">Comments</h4>
-                                            <div class="offset-top-41"></div> -->
-                                            <!-- Box Comment-->
-                                            <!-- <div class="box-comment text-left box-comment-boxed">
-                                                <div class="media">
-                                                    <div class="media-left">
-                                                        <img class="img-circle box-comment-img" src="images/users/user-alex-merphy-60x60.jpg" alt="Alex Merphy" width="60" height="60">
-                                                    </div>
-                                                    <div class="media-body">
-                                                        <header class="box-comment-header unit unit-vertical unit-spacing-xxs unit-md unit-md-horizontal unit-md-inverse unit-md-middle unit-md-align-right">
-                                                            <div class="unit-left">
-                                                                <ul class="box-comment-meta list-inline list-inline-sm text-dark">
-                                                                    <li>
-                                                                        <span class="box-comment-icon mdi mdi-clock"></span>
-                                                                        <time datetime="2016-01-01">Feb 18, 9:14</time>
-                                                                    </li>
-                                                                    <li>
-                                                                        <a href="#like">
-                                                                            <span class="box-comment-icon mdi mdi-thumb-up-outline"></span> Like</a>
-                                                                    </li>
-                                                                    <li>
-                                                                        <a href="#reply">
-                                                                            <span class="box-comment-icon mdi mdi-message-outline"></span> Reply</a>
-                                                                    </li>
-                                                                </ul>
-                                                            </div>
-                                                            <div class="unit-body">
-                                                                <h6 class="box-comment-title">Alex Merphy</h6>
-                                                            </div>
-                                                        </header>
-                                                        <section class="box-comment-body">
-                                                            <p>Very smart people working on the project — they provided great
-                                                                insight and brought experience to it. Sales person was very
-                                                                prompt.
-                                                            </p>
-                                                        </section>
-                                                    </div>
-                                                </div>
-                                            </div> -->
-                                            <!-- Box Comment-->
+                    </div>
+                    <div class="col-sm-7 col-sm-push-1">
+                        <img src="images/blog/blogheader_pinic.jpg" style="width: 93%;">
+                    </div>
+                </div>
+            </section>
+            <!-- Author Aside-->
+            <section class="section-88 offset-top-24">
+                <div class="shell">
+                    <div class="range">
+                        <div class="col-sm-2">
 
-                                            <h5 class="offset-top-34 text-uppercase text-spacing-120 text-bolds">Leave a comment</h5>
-                                            <form class="rd-mailform offset-top-10 text-left" data-form-output="form-contact-me" data-form-type="contact" method="post"
-                                                action="bat/rd-mailform.php">
-                                                <div class="form-group">
-                                                    <label class="form-label form-label-outside" for="comment-message">Message:</label>
-                                                    <textarea class="form-control" id="comment-message" data-constraints="@Required" style="height: 170px;"></textarea>
-                                                </div>
-                                                <div class="group-sm text-left offset-top-30">
-                                                    <button class="btn btn-sm btn-primary" type="submit">comment</button>
-                                                </div>
-                                            </form>
+                        </div>
+                        <div class="col-sm-10 col-sm-push-1 ">
+                            <div class="cell-md-12 text-left">
+                                <h4 class="offset-top-50 text-left">How Repair Shops can Capture more Revenue by Changing Pricing Approach</h4>
+
+                                <p class="text-left">
+                                    Is your repair shop losing bids to gain new customers? Perhaps your approach to capturing new business needs some tweaking.</p>
+                                <p>
+                                    Repair shops are constantly looking for ways to win more business from equipment owners. Equipment owners evaluate repair
+                                    shops on several factors when deciding to enter an agreement with them. Quality of work,
+                                    capacity, and cost are few major factors in this decision. RailcarRx Repair Shop helps
+                                    to manage capacity planning and definitely can help when it comes to managing customer
+                                    specific labor rates.
+                                </p>
+                                <p>At RailcarRx we believe in using successful ideas from other industries and applying them
+                                    to rail. For example, when I think back to any contract I have signed for a service,
+                                    I realize that I chose that provider based on the best rates (when services are comparable).
+                                    To “sweeten the pot” the service provider may offer a multi-year contract with introductory
+                                    rates for the first year, then each subsequent year the rates increase per the agreement.
+                                    Think cable or internet providers here, for example, my internet provider charges me
+                                    an introductory rate of $35 per month year one, then year two and three the rate increases
+                                    to $45 per month.
+                                </p>
+                                <p>RailcarRx thought “why not apply this same methodology to railcar repairs?” Most repair shops
+                                    that are performing contract repairs provide car owners or maintenance responsible parties
+                                    with a negotiated rate for labor, material markups, etc. Shops may be able to win more
+                                    customers by providing an introductory labor rate of $75 per hour for year one, then
+                                    the rates increase years 2 & 3 for example.
+                                </p>
+                                <p>Some shops are already offering this type of pricing model, however, the majority of off-the-shelf
+                                    shop systems do not provide functionality to effectively manage when and how rates expire
+                                    and new rates are applied. These systems force users to manually update rates after they
+                                    have expired. As we know, adding any manual manipulation will almost always be a point
+                                    of failure. Meaning that customers may continue to enjoy the same introductory rates
+                                    you provided to win their business for the life of the agreement. Good for the car owners,
+                                    not so good for the shop.
+                                </p>
+                                <p>RailcarRx Repair Shop takes this concept and applies it to repair rates using the tiered
+                                    pricing feature in our solution. This provides repair shops the flexibility to get more
+                                    creative with pricing and material markups to help attract more customers. RailcarRx
+                                    Repair Shop allow shops to have an unlimited number of pricing tiers that automatically
+                                    expire when a new tier’s effective date is reached. No manual updates required, no human
+                                    error.</p>
+                                <p>In the screen shot below, from the RailcarRx Repair Shop solution, a shop can set effective
+                                    dates for each pricing tier, applicable labor rates, material markups, and other rate
+                                    types as well. The area highlighted within the red box shows the effective date of each
+                                    pricing tier, the standard labor and tank car rates, and material markup rate. As each
+                                    effective date passes, the previous pricing tier expires.</p>
+                                <p>As consumer spending and confidence continues to grow, both the economy and the rail industry
+                                    will share in the success from this renewed forward momentum.</p>
+                                <div id="attachment_801" style="width: 970px;padding-left: 1% !important;" class="wp-caption aligncenter blogimg">
+                                    <a href="http://www.railcarrx.com/wp-content/uploads/2016/08/Tiered-Pricing-Example-RailcarRx.png" rel="attachment wp-att-801">
+                                        <img class="wp-image-801 size-large" src="http://www.railcarrx.com/wp-content/uploads/2016/08/Tiered-Pricing-Example-RailcarRx-1024x353.png"
+                                            alt="RailcarRx Repair Shop offers users the ability to setup tiered pricing for customers"
+                                            width="960" height="331" srcset="http://www.railcarrx.com/wp-content/uploads/2016/08/Tiered-Pricing-Example-RailcarRx-1024x353.png 1024w, http://www.railcarrx.com/wp-content/uploads/2016/08/Tiered-Pricing-Example-RailcarRx-300x103.png 300w, http://www.railcarrx.com/wp-content/uploads/2016/08/Tiered-Pricing-Example-RailcarRx-768x264.png 768w, http://www.railcarrx.com/wp-content/uploads/2016/08/Tiered-Pricing-Example-RailcarRx.png 1118w"
+                                            sizes="(max-width: 960px) 100vw, 960px">
+                                    </a>
+                                    <p class="wp-caption-text">RailcarRx Repair Shop offers users the ability to setup tiered pricing for customers</p>
+                                </div>
+                                <p>
+                                    <strong class="astrong">In this current business environment repair shops need to market their services and rates
+                                        differently than their competitors. RailcarRx Repair Shop provides the edge for a
+                                        shop to easily offer and manage a tiered pricing structure that automatically manages
+                                        itself. How could your shop benefit from this ability?</strong>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+            <section>
+
+            </section>
+            <!-- Conclusion-->
+            <section class="section-66 section-bottom-124">
+                <div class="shell">
+                    <div class="range range-xs-center range-lg-left">
+                        <div class="col-sm-10 col-sm-push-2">
+                            <footer class="offset-top-50 text-sm-left clearfix">
+                                <div class="group">
+                                    <a class="btn btn-danger btn-icon btn-icon-left" href="#">
+                                        <span class="icon icon-xs mdi mdi-heart"></span>like
+                                        <span class="badge">521</span>
+                                    </a>
+                                    <a class="btn btn-info btn-icon btn-icon-left" href="#">
+                                        <span class="icon icon-xs mdi mdi-facebook"></span>Share on facebook</a>
+                                    <a class="btn btn-sapphire btn-icon btn-icon-left" href="#">
+                                        <span class="icon icon-xs mdi mdi-tumblr"></span>Share on Tumblr</a>
+                                </div>
+                            </footer>
+                            <div class="offset-top-34">
+                                <div class="group-xs">
+                                    <a class="btn btn-xs btn-default" href="#">Web</a>
+                                    <a class="btn btn-xs btn-default" href="#">UX</a>
+                                    <a class="btn btn-xs btn-default" href="#">Marketing</a>
+                                    <a class="btn btn-xs btn-default" href="#">News</a>
+                                </div>
+                            </div>
+                            <div class="range offset-top-41 range-sm-center">
+                                <div class="col-sm-10 col-sm-pull-1">
+                                    <hr class="offset-top-66">
+                                    <h5 class="offset-top-34 text-uppercase text-spacing-120 text-bolds">Leave a comment</h5>
+                                    <form class="rd-mailform offset-top-10 text-left" data-form-output="form-contact-me" data-form-type="contact" method="post"
+                                        action="bat/rd-mailform.php">
+                                        <div class="form-group">
+                                            <label class="form-label form-label-outside" for="comment-message">Message:</label>
+                                            <textarea class="form-control" id="comment-message" data-constraints="@Required" style="height: 170px;"></textarea>
                                         </div>
-                                    </div>
+                                        <div class="group-sm text-left offset-top-30">
+                                            <button class="btn btn-sm btn-primary" type="submit">comment</button>
+                                        </div>
+                                    </form>
                                 </div>
                             </div>
-                        </div>
-                    </section>
-                </main>
-                <!-- Page Footer-->
-                <!-- Default footer-->
-                <footer class="section-relative section-top-66 section-bottom-34 page-footer bg-gray-base context-dark">
-                    <div class="shell offset-top-50">
-                        <p class="small text-darker">RailcarRx &copy;
-                            <span class="copyright-year"></span> .
-                            <a href="privacy.html">Privacy Policy</a>
-                        </p>
-                    </div>
-                </footer>
-            </div>
-            <!-- Global RD Mailform Output-->
-            <div class="snackbars" id="form-output-global"></div>
-            <!-- PhotoSwipe Gallery-->
-            <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-                <div class="pswp__bg"></div>
-                <div class="pswp__scroll-wrap">
-                    <div class="pswp__container">
-                        <div class="pswp__item"></div>
-                        <div class="pswp__item"></div>
-                        <div class="pswp__item"></div>
-                    </div>
-                    <div class="pswp__ui pswp__ui--hidden">
-                        <div class="pswp__top-bar">
-                            <div class="pswp__counter"></div>
-                            <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-                            <button class="pswp__button pswp__button--share" title="Share"></button>
-                            <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-                            <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-                            <div class="pswp__preloader">
-                                <div class="pswp__preloader__icn">
-                                    <div class="pswp__preloader__cut">
-                                        <div class="pswp__preloader__donut"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                            <div class="pswp__share-tooltip"></div>
-                        </div>
-                        <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
-                        <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
-                        <div class="pswp__caption">
-                            <div class="pswp__caption__center"></div>
                         </div>
                     </div>
                 </div>
+            </section>
+        </main>
+
+        <!-- Default footer-->
+        <footer class="section-relative section-top-66 section-bottom-34 page-footer bg-gray-base context-dark">
+            <div class="shell offset-top-50">
+                <p class="small text-darker">RailcarRx &copy;
+                    <span class="copyright-year"></span> .
+                    <a href="privacy.html">Privacy Policy</a>
+                </p>
             </div>
-            <!-- JavaScript-->
-            <script src="js/core.min.js"></script>
-            <script src="js/script.js"></script>
+        </footer>
+        </div>
+        <!-- Global RD Mailform Output-->
+        <div class="snackbars" id="form-output-global"></div>
+        <!-- PhotoSwipe Gallery-->
+        <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="pswp__bg"></div>
+            <div class="pswp__scroll-wrap">
+                <div class="pswp__container">
+                    <div class="pswp__item"></div>
+                    <div class="pswp__item"></div>
+                    <div class="pswp__item"></div>
+                </div>
+                <div class="pswp__ui pswp__ui--hidden">
+                    <div class="pswp__top-bar">
+                        <div class="pswp__counter"></div>
+                        <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                        <button class="pswp__button pswp__button--share" title="Share"></button>
+                        <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                        <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                        <div class="pswp__preloader">
+                            <div class="pswp__preloader__icn">
+                                <div class="pswp__preloader__cut">
+                                    <div class="pswp__preloader__donut"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                        <div class="pswp__share-tooltip"></div>
+                    </div>
+                    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+                    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+                    <div class="pswp__caption">
+                        <div class="pswp__caption__center"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- JavaScript-->
+        <script src="js/core.min.js"></script>
+        <script src="js/script.js"></script>
 </body>
 
 </html>

@@ -14,13 +14,26 @@
     <!-- Stylesheets-->
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Lato:300,300italic,400,700,900|Yesteryear">
     <link rel="stylesheet" href="css/style.css">
-    <!--[if lt IE 10]>
-    <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
-    <script src="js/html5shiv.min.js"></script>
-		<![endif]-->
+    <link rel="stylesheet" href="css/landingcss/style.css">
+    <link rel="stylesheet" href="css/tems.css">
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="te/css/animate.css">
+    <!-- Icomoon Icon Fonts-->
+    <link rel="stylesheet" href="te/css/icomoon.css">
+    <!-- Simple Line Icons -->
+    <link rel="stylesheet" href="te/css/simple-line-icons.css">
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" href="te/css/bootstrap.css">
+    <!-- Owl Carousel  -->
+    <link rel="stylesheet" href="te/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="te/css/owl.theme.default.min.css">
+    <!-- Style -->
+    <link rel="stylesheet" href="te/css/style.css">
+    <link rel="stylesheet" href="te/style.css">
 </head>
 
 <body>
+    <!-- Page-->
     <div class="page text-center">
         <!-- Page Head-->
         <header class="page-head slider-menu-position">
@@ -38,8 +51,8 @@
                             </button>
                             <!-- Navbar Brand-->
                             <div class="rd-navbar-brand">
-                                <a href="#home">
-                                    <img style='margin-top: -11px;margin-left: -17px;' width='158' height='48' src='images/RailcarRx_Trademarked.png' alt=''
+                                <a href="CeceRailcarrx.html">
+                                    <img style='margin-top: -11px;margin-left: 119px;' width='158' height='48' src='images/RailcarRx_Trademarked.png' alt=''
                                     />
                                 </a>
                             </div>
@@ -49,24 +62,37 @@
                                 <div class="rd-navbar-mobile-scroll">
                                     <!-- Navbar Brand Mobile-->
                                     <div class="rd-navbar-mobile-brand">
-                                        <a href="#home">
+                                        <a href="CeceRailcarrx.html">
                                             <img style='margin-top: -11px;margin-left: -17px;' width='158' height='48' src='images/RailcarRx_Trademarked.png' alt=''
                                             />
                                         </a>
                                     </div>
+                                    <div class="form-search-wrap">
+                                        <!-- RD Search Form-->
+                                        <form class="form-search rd-search" action="search-results.html" method="GET">
+                                            <div class="form-group">
+                                                <label class="form-label form-search-label form-label-sm" for="rd-navbar-form-search-widget">Search</label>
+                                                <input class="form-search-input input-sm form-control form-control-gray-lightest input-sm" id="rd-navbar-form-search-widget"
+                                                    type="text" name="s" autocomplete="off">
+                                            </div>
+                                            <button class="form-search-submit" type="submit">
+                                                <span class="mdi mdi-magnify"></span>
+                                            </button>
+                                        </form>
+                                    </div>
                                     <!-- RD Navbar Nav-->
-                                    <ul class="rd-navbar-nav">
-                                        <li class="active">
-                                            <a href="#home">
+                                    <ul class="rd-navbar-nav" style="margin-left: -24%; font-weight:600">
+                                        <li>
+                                            <a href="CeceRailcarrx.html">
                                                 <span class="text-middle" style="color:  black;">Home</span>
                                             </a>
                                         </li>
-                                        <li class="active">
+                                        <li>
                                             <a href="Aboutus.html">
                                                 <span class="text-middle" style="color:  black;">About us</span>
                                             </a>
                                         </li>
-                                        <li class="active">
+                                        <li>
                                             <a href="#ITSolutions">
                                                 <span class="text-middle" style="color:  black;">Products</span>
                                             </a>
@@ -93,18 +119,18 @@
                                                 </li>
                                             </ul>
                                         </li>
-                                        <li class="active">
+                                        <li>
                                             <a href="service.html">
                                                 <span class="text-middle" style="color:  black;">Services</span>
                                             </a>
                                             <ul class="rd-navbar-dropdown">
                                                 <li>
-                                                    <a href="#">
+                                                    <a href="ITProjects.html">
                                                         <span class="text-regular text-capitaliz">IT Projects</span>
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="#">
+                                                    <a href="ContractConsulting.html">
                                                         <span class="text-regular text-capitaliz">Contract Consulting</span>
                                                     </a>
                                                 </li>
@@ -120,12 +146,12 @@
                                                 </li>
                                             </ul>
                                         </li>
-                                        <li class="active">
+                                        <li>
                                             <a href="blog.html">
                                                 <span class="text-middle" style="color:  black;">Blog</span>
                                             </a>
                                         </li>
-                                        <li class="active">
+                                        <li>
                                             <a href="contactus.html">
                                                 <span class="text-middle" style="color:  black;">Contact us</span>
                                             </a>
@@ -136,273 +162,232 @@
                         </div>
                 </nav>
                 </div>
-                <!-- Page Content-->
-                <main class="page-content">
-                    <!-- Header Transparent-->
-                    <div id="home" data-type="anchor">
-                        <!-- style="padding-top: 107px;padding-left: 11%;padding-right: 11%;"> -->
-                        <div class="media rmsblog-p">
-                            <img src="images/blog/blogheader_predictive.png" style="width: 100%;padding-top: 4%;height: 30%;" alt="">
-                        </div>
+                <div id="home" data-type="anchor">
+                </div>
+        </header>
+        <!-- Page Content-->
+        <main class="page-content">
+            <section style="margin-top: 6% !important;">
+                <div class="row">
+                    <div class="col-sm-3 col-sm-push-1" style="padding-top:7% !important;margin-left:  2% !important;">
+                        <h5 style="text-align: -webkit-auto; color: #9e472a;">??</h5>
+                        <h5 style="text-align: -webkit-auto;"> ??</h5>
+
                     </div>
-                    <!-- Author Aside-->
-                    <section class="section-66 offset-top-24">
-                        <div class="shell">
-                            <div class="range ">
-                                <div class="cell-md-3 offset-top-30">
+                    <div class="col-sm-7 col-sm-push-1">
+                        <img src="images/blog/blogheader_predictive.png" style="width: 93%;">
+                    </div>
+                </div>
+            </section>
+            <!-- Author Aside-->
+            <section class="section-88 offset-top-24">
+                <div class="shell">
+                    <div class="range">
+                        <div class="col-sm-2">
 
-                                </div>
-                                <div class="cell-md-12 text-left" style="margin-top:-10% !important">
-                                    <p class="offset-top-50 text-left"> Leveraging Predictive Analytics in the Rail Industry.Predictive analytics uses historical
-                                        data to make predictions about events in the future… The Rail Industry is gathering
-                                        actionable data at an unprecedented rate.&nbsp; As an example, consider the evolution
-                                        of Positive Train Control systems that leverage devices and systems across a diverse
-                                        network (truly a functioning Internet of Things (IoT)).&nbsp; PTC not only generates
-                                        real-time data, but ultimately, this information is stored as valuable historical
-                                        data enabling better insights and more informed business decisions for the future.
-                                    </p>
+                        </div>
+                        <div class="col-sm-10 col-sm-push-1 ">
+                            <div class="cell-md-12 text-left">
+                                <p class="offset-top-50 text-left"> Leveraging Predictive Analytics in the Rail Industry.Predictive analytics uses historical
+                                    data to make predictions about events in the future… The Rail Industry is gathering actionable
+                                    data at an unprecedented rate.&nbsp; As an example, consider the evolution of Positive
+                                    Train Control systems that leverage devices and systems across a diverse network (truly
+                                    a functioning Internet of Things (IoT)).&nbsp; PTC not only generates real-time data,
+                                    but ultimately, this information is stored as valuable historical data enabling better
+                                    insights and more informed business decisions for the future.
+                                </p>
 
-                                    <p>Added to the information generated from deployed PTC systems is the considerably large
-                                        historical data stores already maintained in railroad industry databases.&nbsp;&nbsp;
-                                        These data stores can be accessed through effective data mining, data modeling and
-                                        statistical software tools to significantly impact operational efficiencies.
-                                    </p>
-                                    <p> A thumbnail survey of areas in the Rail Industry where predicative analytics can help
-                                        include:</p>
-                                    <ol class="list list-numbered">
-                                        <li>Safety and inspection processes</li>
-                                        <li>Railcar, locomotive and rail maintenance cycles</li>
-                                        <li>Fuel and labor cost management</li>
-                                        <li>Traffic, scheduling (e.g. bad stops) and rail network management</li>
-                                        <li>Environmental and health management actions</li>
-                                    </ol>
-                                    <p>
-                                        The challenge with managing big data and in using data analytics effectively, according to many IT executives, is complex.&nbsp;
-                                        In particular, the multitude of available data sources calls for an IT analytics
-                                        architecture that supports a more agile “presentation side” system backstopped by
-                                        a robust, service oriented middle layer.&nbsp; This, many feel, is key to building
-                                        an analytics platform that is integrated (fully) and flexible, and at the same time,
-                                        technologically agnostic.
-                                    </p>
-                                    <p>
-                                        In the end the goal is worthy for predictive analytics – – &nbsp; to provide Rail Industry managers with the information
-                                        needed to make proactive rather than reactive decisions.
-                                    </p>
-                                </div>
+                                <p>Added to the information generated from deployed PTC systems is the considerably large historical
+                                    data stores already maintained in railroad industry databases.&nbsp;&nbsp; These data
+                                    stores can be accessed through effective data mining, data modeling and statistical software
+                                    tools to significantly impact operational efficiencies.
+                                </p>
+                                <p> A thumbnail survey of areas in the Rail Industry where predicative analytics can help include:
+                                </p>
+                                <ol class="list list-numbered">
+                                    <li>Safety and inspection processes</li>
+                                    <li>Railcar, locomotive and rail maintenance cycles</li>
+                                    <li>Fuel and labor cost management</li>
+                                    <li>Traffic, scheduling (e.g. bad stops) and rail network management</li>
+                                    <li>Environmental and health management actions</li>
+                                </ol>
+                                <p>
+                                    The challenge with managing big data and in using data analytics effectively, according to many IT executives, is complex.&nbsp;
+                                    In particular, the multitude of available data sources calls for an IT analytics architecture
+                                    that supports a more agile “presentation side” system backstopped by a robust, service
+                                    oriented middle layer.&nbsp; This, many feel, is key to building an analytics platform
+                                    that is integrated (fully) and flexible, and at the same time, technologically agnostic.
+                                </p>
+                                <p>
+                                    In the end the goal is worthy for predictive analytics – – &nbsp; to provide Rail Industry managers with the information
+                                    needed to make proactive rather than reactive decisions.
+                                </p>
                             </div>
                         </div>
-                    </section>
-                    <section>
-                        <section class="section-66 offset-top-24">
-                            <div class="unit unit-sm unit-sm-horizontal unit-sm-inverse">
+                    </div>
+            </section>
+            <section>
+                <section class="section-66 offset-top-24">
+                    <div class="unit unit-sm unit-sm-horizontal unit-sm-inverse">
+                        <div class="unit-body">
+                            <!-- Post Title-->
+                            <h3 class="offset-top-10">
+                                <a href="blog-classic-single-post.html"></a>
+                            </h3>
+                            <!-- Post Body-->
+                            <div class="post-body">
+                                <p>
+                                    <span style="color: #000000;">“ I would like to discuss your strategy for using predictive analytics and share with
+                                    </span>you our
+                                    <span style="color: #000000;">
+                                        ideas for building a successful internal Predictive Analytics practice in your organization. ”</span>
+                                </p>
+                                <p>&nbsp;</p>
+                                <p class="astrong">
+                                    <strong class="astrong">Rob Lyon is COO, Business Development &amp; Operations at RailcarRx &amp; Primus Global
+                                        Services. </strong>
+                                    <strong class="astrong">Please email him at&nbsp;
+                                        <span style="color: #cc3300;">
+                                            <a style="color: #cc3300;" href="mailto:rlyon@railcarrx.com">rlyon@railcarrx.com</a>
+                                        </span>&nbsp;or call at
+                                        <span style="color: #cc3300;">972-753-6500 x117</span> for any questions or comments.&nbsp;</strong>
+                                </p>
+                            </div>
+                            <!-- Post Tags-->
+                        </div>
+                        <div class="unit-right">
+                            <div class="unit unit-horizontal unit-middle unit-sm-vertical unit-spacing-xs">
+                                <div class="unit-left">
+                                    <img class="img-circle" src="http://www.railcarrx.com/wp-content/uploads/2017/02/Rob-2-1-150x150.png" alt=" " width="170"
+                                        height="170">
+                                </div>
                                 <div class="unit-body">
-                                    <!-- Post Title-->
-                                    <h3 class="offset-top-10">
-                                        <a href="blog-classic-single-post.html"></a>
-                                    </h3>
-                                    <!-- Post Body-->
-                                    <div class="post-body">
-                                        <p>
-                                            <span style="color: #000000;">“ I would like to discuss your strategy for using predictive analytics and share
-                                                with </span>you our
-                                            <span style="color: #000000;">
-                                                ideas for building a successful internal Predictive Analytics practice in your organization. ”</span>
-                                        </p>
-                                        <p>&nbsp;</p>
-                                        <p class="astrong">
-                                            <strong class="astrong">Rob Lyon is COO, Business Development &amp; Operations at RailcarRx &amp; Primus
-                                                Global Services. </strong>
-                                            <strong class="astrong">Please email him at&nbsp;
-                                                <span style="color: #cc3300;">
-                                                    <a style="color: #cc3300;" href="mailto:rlyon@railcarrx.com">rlyon@railcarrx.com</a>
-                                                </span>&nbsp;or call at
-                                                <span style="color: #cc3300;">972-753-6500 x117</span> for any questions or comments.&nbsp;</strong>
-                                        </p>
-                                    </div>
-                                    <!-- Post Tags-->
-                                </div>
-                                <div class="unit-right">
-                                    <div class="unit unit-horizontal unit-middle unit-sm-vertical unit-spacing-xs">
-                                        <div class="unit-left">
-                                            <img class="img-circle" src="http://www.railcarrx.com/wp-content/uploads/2017/02/Rob-2-1-150x150.png" alt=" " width="170"
-                                                height="170">
-                                        </div>
-                                        <div class="unit-body">
-                                            <p class="text-dark">
-                                                <!-- <cite class="small text-normal">Sam Cole</cite> -->
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                        <div id="fws_5b4c50dd5f278" class="wpb_row vc_row-fluid  animate_onoffset row-dynamic-el full-width-content section-style    "
-                            style="background-color: rgb(178, 178, 178);padding-top: 40px !important;padding-bottom: 40px !important;margin-top: 0px;margin-left: -16% !important;margin-right: -17% !important;">
-                            <div style="position: absolute;top: 0;"></div>
-                            <div class="col span_12  dark">
-                                <div class="vc_col-sm-12 wpb_column column_container with_padding " style="height: auto;" data-animation="none" data-delay="">
-                                    <div class="wpb_wrapper">
-                                        <div class="textbar style_2 wpb_content_element ">
-                                            <h2>
-                                                <p></p>
-                                                <p style="text-align: center;">To Learn More about RailcarRx&nbsp;Integration and Custom Services</p>
-                                                <p></p>
-                                            </h2>
-                                            <div class="cell-md-4 cell-lg-3" style="padding-left: 45% !important;">
-                                                <a class="button button1 btn-anis-effect btn-icon-btn-icon-left" href="">
-                                                    <span class="icon mdi outline"></span>Click Here</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                    <!-- Conclusion-->
-                    <section class="section-66 section-bottom-124">
-                        <div class="shell">
-                            <div class="range range-xs-center range-lg-left">
-                                <div class="cell-xs-10 cell-sm-9 text-left">
-                                 <!--    <h6 class="text-bold">Conclusion</h6>
-                                    <p>What other techniques do you have for promoting a blog/generating traffic? Kindly share
-                                        in the comments section.
+                                    <p class="text-dark">
                                     </p>
-                                    <p>P.S: If you need more help or guidance, feel free to leave a comment below. And if you
-                                        have your own strategies to drive traffic to your blog, don’t be shy to share.</p> -->
-                                    <footer class="offset-top-50 text-sm-left clearfix">
-                                        <div class="group">
-                                            <a class="btn btn-danger btn-icon btn-icon-left" href="#">
-                                                <span class="icon icon-xs mdi mdi-heart"></span>like
-                                                <span class="badge">521</span>
-                                            </a>
-                                            <a class="btn btn-info btn-icon btn-icon-left" href="#">
-                                                <span class="icon icon-xs mdi mdi-facebook"></span>Share on facebook</a>
-                                            <a class="btn btn-sapphire btn-icon btn-icon-left" href="#">
-                                                <span class="icon icon-xs mdi mdi-tumblr"></span>Share on Tumblr</a>
-                                        </div>
-                                    </footer>
-                                    <div class="offset-top-34">
-                                        <div class="group-xs">
-                                            <a class="btn btn-xs btn-default" href="#">Web</a>
-                                            <a class="btn btn-xs btn-default" href="#">UX</a>
-                                            <a class="btn btn-xs btn-default" href="#">Marketing</a>
-                                            <a class="btn btn-xs btn-default" href="#">News</a>
-                                        </div>
-                                    </div>
-                                    <!-- <hr class="offset-top-66"> -->
-                                    <!--   <h4 class="offset-top-66 text-uppercase text-spacing-120 text-center text-bold">Related Posts</h4> -->
-                                    <div class="range offset-top-41 range-sm-center">
-                                        <div class="cell-sm-10">
-                                            <hr class="offset-top-66">
-                                           <!--  <h4 class="offset-top-66 text-uppercase text-spacing-120 text-center text-bold">Comments</h4>
-                                            <div class="offset-top-41"></div> -->
-                                            <!-- Box Comment-->
-                                           <!--  <div class="box-comment text-left box-comment-boxed">
-                                                <div class="media">
-                                                    <div class="media-left">
-                                                        <img class="img-circle box-comment-img" src="images/users/user-alex-merphy-60x60.jpg" alt="Alex Merphy" width="60" height="60">
-                                                    </div>
-                                                    <div class="media-body">
-                                                        <header class="box-comment-header unit unit-vertical unit-spacing-xxs unit-md unit-md-horizontal unit-md-inverse unit-md-middle unit-md-align-right">
-                                                            <div class="unit-left">
-                                                                <ul class="box-comment-meta list-inline list-inline-sm text-dark">
-                                                                    <li>
-                                                                        <span class="box-comment-icon mdi mdi-clock"></span>
-                                                                        <time datetime="2016-01-01">Feb 18, 9:14</time>
-                                                                    </li>
-                                                                    <li>
-                                                                        <a href="#like">
-                                                                            <span class="box-comment-icon mdi mdi-thumb-up-outline"></span> Like</a>
-                                                                    </li>
-                                                                    <li>
-                                                                        <a href="#reply">
-                                                                            <span class="box-comment-icon mdi mdi-message-outline"></span> Reply</a>
-                                                                    </li>
-                                                                </ul>
-                                                            </div>
-                                                            <div class="unit-body">
-                                                                <h6 class="box-comment-title">Alex Merphy</h6>
-                                                            </div>
-                                                        </header>
-                                                        <section class="box-comment-body">
-                                                            <p>Very smart people working on the project — they provided great
-                                                                insight and brought experience to it. Sales person was very
-                                                                prompt.</p>
-                                                        </section>
-                                                    </div>
-                                                </div>
-                                            </div> -->
-                                            <!-- Box Comment-->
-
-                                            <h5 class="offset-top-34 text-uppercase text-spacing-120 text-bold">Leave a comment</h5>
-                                            <form class="rd-mailform offset-top-10 text-left" data-form-output="form-contact-me" data-form-type="contact" method="post"
-                                                action="bat/rd-mailform.php">
-                                                <div class="form-group">
-                                                    <label class="form-label form-label-outside" for="comment-message">Message:</label>
-                                                    <textarea class="form-control" id="comment-message" data-constraints="@Required" style="height: 170px;"></textarea>
-                                                </div>
-                                                <div class="group-sm text-left offset-top-30">
-                                                    <button class="btn btn-sm btn-primary" type="submit">comment</button>
-                                                </div>
-                                            </form>
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </section>
-                </main>
-                <!-- Page Footer-->
-                <!-- Default footer-->
-                <footer class="section-relative section-top-66 section-bottom-34 page-footer bg-gray-base context-dark">
-                    <div class="shell offset-top-50">
-                        <p class="small text-darker">RailcarRx &copy;
-                            <span class="copyright-year"></span> .
-                            <a href="privacy.html">Privacy Policy</a>
-                        </p>
                     </div>
-                </footer>
-            </div>
-            <!-- Global RD Mailform Output-->
-            <div class="snackbars" id="form-output-global"></div>
-            <!-- PhotoSwipe Gallery-->
-            <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-                <div class="pswp__bg"></div>
-                <div class="pswp__scroll-wrap">
-                    <div class="pswp__container">
-                        <div class="pswp__item"></div>
-                        <div class="pswp__item"></div>
-                        <div class="pswp__item"></div>
-                    </div>
-                    <div class="pswp__ui pswp__ui--hidden">
-                        <div class="pswp__top-bar">
-                            <div class="pswp__counter"></div>
-                            <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-                            <button class="pswp__button pswp__button--share" title="Share"></button>
-                            <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-                            <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-                            <div class="pswp__preloader">
-                                <div class="pswp__preloader__icn">
-                                    <div class="pswp__preloader__cut">
-                                        <div class="pswp__preloader__donut"></div>
+                </section>
+                <div id="fws_5b4c50dd5f278" class="wpb_row vc_row-fluid  animate_onoffset row-dynamic-el full-width-content section-style    "
+                    style="background-color: rgb(178, 178, 178);padding-top: 40px !important;padding-bottom: 40px !important;margin-top: 0px;margin-left: -16% !important;margin-right: -17% !important;">
+                    <div style="position: absolute;top: 0;"></div>
+                    <div class="col span_12  dark">
+                        <div class="vc_col-sm-12 wpb_column column_container with_padding " style="height: auto;" data-animation="none" data-delay="">
+                            <div class="wpb_wrapper">
+                                <div class="textbar style_2 wpb_content_element ">
+                                    <h2>
+                                        <p></p>
+                                        <p style="text-align: center;">To Learn More about RailcarRx&nbsp;Integration and Custom Services</p>
+                                        <p></p>
+                                    </h2>
+                                    <div class="cell-md-4 cell-lg-3" style="padding-left: 45% !important;">
+                                        <a class="button button1 btn-anis-effect btn-icon-btn-icon-left" href="">
+                                            <span class="icon mdi outline"></span>Click Here</a>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                            <div class="pswp__share-tooltip"></div>
-                        </div>
-                        <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
-                        <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
-                        <div class="pswp__caption">
-                            <div class="pswp__caption__center"></div>
                         </div>
                     </div>
                 </div>
+            </section>
+            <!-- Conclusion-->
+            <section class="section-66 section-bottom-124">
+                <div class="shell">
+                    <div class="range range-xs-center range-lg-left">
+                        <div class="col-sm-10 col-sm-push-3">
+                            <footer class="offset-top-50 text-sm-left clearfix">
+                                <div class="group">
+                                    <a class="btn btn-danger btn-icon btn-icon-left" href="#">
+                                        <span class="icon icon-xs mdi mdi-heart"></span>like
+                                        <span class="badge">521</span>
+                                    </a>
+                                    <a class="btn btn-info btn-icon btn-icon-left" href="#">
+                                        <span class="icon icon-xs mdi mdi-facebook"></span>Share on facebook</a>
+                                    <a class="btn btn-sapphire btn-icon btn-icon-left" href="#">
+                                        <span class="icon icon-xs mdi mdi-tumblr"></span>Share on Tumblr</a>
+                                </div>
+                            </footer>
+                            <div class="offset-top-34">
+                                <div class="group-xs">
+                                    <a class="btn btn-xs btn-default" href="#">Web</a>
+                                    <a class="btn btn-xs btn-default" href="#">UX</a>
+                                    <a class="btn btn-xs btn-default" href="#">Marketing</a>
+                                    <a class="btn btn-xs btn-default" href="#">News</a>
+                                </div>
+                            </div>
+                            <div class="range offset-top-41 range-sm-center">
+                                <div class="col-sm-10 col-sm-pull-1">
+                                    <hr class="offset-top-66">
+                                    <h5 class="offset-top-34 text-uppercase text-spacing-120 text-bold">Leave a comment</h5>
+                                    <form class="rd-mailform offset-top-10 text-left" data-form-output="form-contact-me" data-form-type="contact" method="post"
+                                        action="bat/rd-mailform.php">
+                                        <div class="form-group">
+                                            <label class="form-label form-label-outside" for="comment-message">Message:</label>
+                                            <textarea class="form-control" id="comment-message" data-constraints="@Required" style="height: 170px;"></textarea>
+                                        </div>
+                                        <div class="group-sm text-left offset-top-30">
+                                            <button class="btn btn-sm btn-primary" type="submit">comment</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- Page Footer-->
+        <!-- Default footer-->
+        <footer class="section-relative section-top-66 section-bottom-34 page-footer bg-gray-base context-dark">
+            <div class="shell offset-top-50">
+                <p class="small text-darker">RailcarRx &copy;
+                    <span class="copyright-year"></span> .
+                    <a href="privacy.html">Privacy Policy</a>
+                </p>
             </div>
-            <!-- JavaScript-->
-            <script src="js/core.min.js"></script>
-            <script src="js/script.js"></script>
+        </footer>
+        </div>
+        <!-- Global RD Mailform Output-->
+        <div class="snackbars" id="form-output-global"></div>
+        <!-- PhotoSwipe Gallery-->
+        <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="pswp__bg"></div>
+            <div class="pswp__scroll-wrap">
+                <div class="pswp__container">
+                    <div class="pswp__item"></div>
+                    <div class="pswp__item"></div>
+                    <div class="pswp__item"></div>
+                </div>
+                <div class="pswp__ui pswp__ui--hidden">
+                    <div class="pswp__top-bar">
+                        <div class="pswp__counter"></div>
+                        <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                        <button class="pswp__button pswp__button--share" title="Share"></button>
+                        <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                        <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                        <div class="pswp__preloader">
+                            <div class="pswp__preloader__icn">
+                                <div class="pswp__preloader__cut">
+                                    <div class="pswp__preloader__donut"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                        <div class="pswp__share-tooltip"></div>
+                    </div>
+                    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+                    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+                    <div class="pswp__caption">
+                        <div class="pswp__caption__center"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- JavaScript-->
+        <script src="js/core.min.js"></script>
+        <script src="js/script.js"></script>
 </body>
 
 </html>

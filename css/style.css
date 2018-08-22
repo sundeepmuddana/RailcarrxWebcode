@@ -61296,11 +61296,11 @@ owl-carousel owl-carousel-style-2
 }
 #myVideo {
 	/* position: fixed; */
-	height: 141%;
-    width: 95%;
-    right: 0;
+	height: 90%;
+    width: 85%;
+    right: 18%;
     bottom: 0;
-    min-width: 10%; 
+    min-width: 10%;
     min-height: 10%;
 }
 
@@ -61598,4 +61598,7 @@ color:white;
     fill: #0c6094;
     background: #0c6094;
     background: linear-gradient(90deg, #544d47 0%, #544d47 100%);
+}
+#blogp{
+	margin-right:  -9% !important;
 }

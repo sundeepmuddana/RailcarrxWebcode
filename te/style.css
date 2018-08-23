@@ -31264,3 +31264,17 @@ a.pswp__share--download:hover {
 	z-index: 1;
 }
 /*# sourceMappingURL=style.css.map */
+.btn1 {
+    background-color: #29297e;
+    position: relative;
+    padding: 2px 0px;
+    font-size: 3px;
+    line-height: 19px;
+    border-radius: 10px;
+    white-space: nowrap;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    border-width: 4px;
+    transition: 0.3s;
+    backface-visibility: hidden;
+}

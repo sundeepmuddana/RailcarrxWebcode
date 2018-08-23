@@ -6922,14 +6922,16 @@ button.close {
 
 .modal-content {
 	position: relative;
-	background-color: #fff;
-	border: 1px solid #999;
-	border: 1px solid rgba(0, 0, 0, 0.2);
-	border-radius: 10px;
-	-webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
-	box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
-	background-clip: padding-box;
-	outline: 0;
+    background-color: #fff;
+    border: 1px solid #999;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 28px;
+    -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+    background-clip: padding-box;
+    outline: 0;
+	width: 196%;
+	right: 38%;
 }
 
 .modal-backdrop {

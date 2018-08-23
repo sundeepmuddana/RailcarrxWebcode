@@ -29,6 +29,10 @@
     <!-- Style -->
     <link rel="stylesheet" href="te/css/style.css">
     <link rel="stylesheet" href="te/style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script><!-- 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" /> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
     <!-- Page-->
@@ -232,7 +236,7 @@
             </div>
           </div> -->
           <div class="row">
-            <div class="col-sm-3 col-sm-push-1" style="padding-top:7% !important;margin-left:  2% !important;">
+            <div class="col-sm-3 col-sm-push-1" style="padding-top:12% !important;margin-left:  2% !important;">
                 <img class="img-square" width="210" height="58" src="images/Insight Logo.jpg" style="margin-left: -55% !important;">
                 <h5 style="text-align: -webkit-auto; color: #0c6094;">Turn Data into Actionable Insights
                   <br>
@@ -240,7 +244,10 @@
                 <h5 style="text-align: -webkit-auto;"> RailcarRx Insight® is the only system to support railcar owners 
                   and shippers’ decisions to optimize railcar fleet maintenance plan and save repair costs.</h5>
                 <p style="text-align: -webkit-auto;"> Insert Play ICON Video: How RailcarRx Insight Works</p>
-
+                <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+                    Launch Video
+                  </button>
+                            
 
             </div>
             <div class="col-sm-7 col-sm-push-1" style="margin-top:  5% !important;">
@@ -320,7 +327,7 @@
               </div>
             </section>
           </div>
-          <div id="features" data-type="anchor" style="padding-bottom: 1%;">
+          <!-- <div id="features" data-type="anchor" style="padding-bottom: 1%;">
             <section class="section-animate animate-content bg-gray-lighter shadow-overlay">
               <div class="section-animate-wrapper section-90 section-md-110 section-md-bottom-0 bg-gray-lighter">
                 <div class="shell" style="margin-top:  -6%;">
@@ -523,7 +530,7 @@
               </div>
             </section>
 
-          </div>
+          </div> -->
 
           <!--<div class="shell offset-top-98 offset-sm-top-110">
           <h2>Testimonials Slider v.5</h2>
@@ -807,6 +814,27 @@
               </div>
           </div>
           </section>
+          <!-- Modal -->
+          <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" >
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content" style="margin-top: 10%;">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                  </div>
+                  <div class="modal-body">
+                    <video controls id="video1" style="width: 100%; height: auto; margin:0 auto; frameborder:0;">
+                      <source src="video/railcarrx video/INSIGHT_Subtitle.mp4" type="video/mp4">
+                      Your browser doesn't support HTML5 video tag.
+                    </video>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
   </div>
   </main>
   <!-- Default footer-->
@@ -918,6 +946,14 @@ $('.range').css("display","");
         btn.innerHTML = "Play";
       }
     }
+  </script>
+  <script>
+    $('#myModal').on('shown.bs.modal', function () {
+  $('#video1')[0].play();
+})
+$('#myModal').on('hidden.bs.modal', function () {
+  $('#video1')[0].pause();
+})
   </script>
 </body>
 

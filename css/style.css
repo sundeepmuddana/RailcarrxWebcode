@@ -60857,7 +60857,7 @@ div.gallery {
 left: 0 !important;
 }
 #connectorflex{
-	padding-left: 92% !important;
+	/* padding-left: 92% !important;
     position: absolute !important;
     top: 34px !important;
     left: calc(76% - -9px) !important;
@@ -60866,7 +60866,18 @@ left: 0 !important;
     height: 2px !important;
     background: #f1f1f10a !important;
     -webkit-transform: rotate(45deg) !important;
-    transform: rotate(0deg) !important;
+	transform: rotate(0deg) !important; */
+	padding-left: 95% !important;
+    position: absolute !important;
+    top: 134px;
+    left: calc(125% - -9px) !important;
+    content: "" !important;
+    width: 40px;
+    height: 2px !important;
+    background: #f1f1f10a !important;
+    -webkit-transform: rotate(45deg) !important;
+    transform: rotate(45deg) !important;
+    z-index: 4
 }
 #connectorflex1{
     height: 2px;
@@ -60969,16 +60980,89 @@ left: 0 !important;
 }
 
 #connectorQuick {
-	height: 2px !important;
+	/* height: 2px !important;
     width: 170px !important;
+    background: #0C6094;
+    /* display: none; 
+    position: absolute !important;
+    left: calc(94% + 23px) !important;
+    top: 61% !important;
+    transform: rotate(-37deg);
+    margin-top: 7px !important;
+	margin-left: -9% !important;
+	z-index: 4; */
+	height: 2px !important;
+    width: 204px !important;
     background: #0C6094;
     /* display: none; */
     position: absolute !important;
     left: calc(94% + 23px) !important;
-    top: -61% !important;
-    transform: rotate(-37deg);
-    margin-top: 7px !important;
-    margin-left: -9% !important;
+    top: 70%;
+    transform: rotate(-1deg);
+    margin-top: 7px;
+    margin-left: -6%;
+    z-index: 4;
+}
+#connectorQuick1 {
+	height: 2px !important;
+    width: 204px !important;
+    background: #0C6094;
+    /* display: none; */
+    position: absolute !important;
+    left: calc(94% + 23px) !important;
+    top: 36%;
+    transform: rotate(-1deg);
+    margin-top: 7px;
+    margin-left: -6%;
+    z-index: 4;
+}
+#connectorQuick1:before {
+    position: absolute;
+    content: "";
+    width: 12px !important;
+    height: 12px !important;
+    border-radius: 50% !important;
+    margin-top: -16px !important;
+    margin-left: -60px !important;
+    top: 10px !important;
+    left: calc(100% + 60px) !important;
+	background: #0C6094;
+}
+#connectorQuick2 {
+	/* height: 2px !important;
+    width: 298px !important;
+    background: #0C6094;
+    /* display: none; 
+    position: absolute !important;
+    left: calc(94% + 23px) !important;
+    top: 13%;
+    transform: rotate(17deg);
+    margin-top: 7px;
+    margin-left: -6%;
+	z-index: 4; */
+	height: 2px !important;
+    width: 274px !important;
+    background: #0C6094;
+    /* display: none; */
+    position: absolute !important;
+    left: calc(94% + 23px) !important;
+    top: 10%;
+    transform: rotate(1deg);
+    margin-top: 7px;
+    margin-left: -6%;
+    z-index: 4;
+}
+#connectorQuick2:before {
+    position: absolute;
+    /* content: "";
+    width: 12px !important;
+    height: 12px !important;
+    border-radius: 50% !important;
+    margin-top: -16px !important;
+    margin-left: -60px !important;
+    top: 10px !important;
+    left: calc(100% + 60px) !important;
+	background: #0C6094; */
 }
 #connectorQuick:before {
     position: absolute;

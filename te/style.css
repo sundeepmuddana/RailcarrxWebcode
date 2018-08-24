@@ -10973,7 +10973,7 @@ fieldset[disabled] .btn-primary {
 
 @media (min-width: 992px) {
 	.section-list-absolute img {
-		width: 70%;
+		width: 100%;
 	}
 	.section-list-absolute .connector {
 		display: block;

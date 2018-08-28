@@ -61388,6 +61388,15 @@ owl-carousel owl-carousel-style-2
     min-height: 10%;
 }
 
+#myVideos {
+	/* position: fixed; */
+	height: 90%;
+    width: 92%;
+    right: 18%;
+    bottom: 0;
+    min-width: 10%;
+    min-height: 10%;
+}
 /* .content {
     position: fixed;
     bottom: 50px;    
@@ -61696,4 +61705,12 @@ color:white;
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
+}
+.abtsubt{
+	font-size: 16px;
+    color: #cc3300;
+}
+#h5rmslogsec{
+	text-align: -webkit-auto;
+    font-size: 16px;
 }

@@ -20573,12 +20573,18 @@ fieldset[disabled] .btn-primary {
 
 /** 2.17 Icons */
 .icon {
-	position: relative;
+/* 	position: relative;
 	display: inline-block;
 	font-weight: 400;
 	font-size: 54px;
 	line-height: 56px;
-	font-style: normal;
+	font-style: normal; */
+	position: relative;
+    display: inline-block;
+    font-weight: 100;
+    font-size: 26px;
+    line-height: 26px;
+    font-style: normal;
 }
 
 .icon:before {

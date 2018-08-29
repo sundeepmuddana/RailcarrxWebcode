@@ -10360,6 +10360,7 @@ mark, .mark {
 
 .list-numbered {
 	padding-left: 15px;
+	color:black;
 }
 
 .list-numbered li {

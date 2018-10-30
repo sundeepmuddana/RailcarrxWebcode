@@ -10192,7 +10192,7 @@ blockquote small,
 blockquote .small,
 small,
 .small {
-	font-size: large;
+	font-size: inherit;
 }
 
 blockquote small:before,
@@ -10508,7 +10508,7 @@ mark, .mark {
 .page blockquote.quote .text-darker,
 .page .text-darker {
 	color: #ffffff;
-	font-size: large;
+	font-size: inherit;
 }
 
 .page a.text-darker:hover,

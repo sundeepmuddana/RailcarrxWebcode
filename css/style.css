@@ -11408,7 +11408,7 @@ mark, .mark {
 .page blockquote.quote .text-darker,
 .page .text-darker {
 	color: #fafaff;
-    font-size: large;
+	font-size: small;
 }
 
 .page a.text-darker:hover,

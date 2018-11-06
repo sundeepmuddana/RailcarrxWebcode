@@ -1468,7 +1468,7 @@ body {
 	font-family: "Cabin", sans-serif;
 	font-size: 14px;
 	line-height: 1.5;
-	color: #9b9b9b;
+	color:black;
 	background-color: #fff;
 }
 
@@ -22126,7 +22126,7 @@ html .page .offset-top-165 {
 		margin-top: 20px;
 	}
 	html .page .offset-md-top-30 {
-		margin-top: 30px;
+		margin-top: -110px;
 	}
 	html .page .offset-md-top-35 {
 		margin-top: 35px;
@@ -22171,7 +22171,7 @@ html .page .offset-top-165 {
 		margin-top: 20px;
 	}
 	html .page .offset-lg-top-30 {
-		margin-top: 30px;
+		margin-top: -110px;
 	}
 	html .page .offset-lg-top-35 {
 		margin-top: 35px;
@@ -22216,7 +22216,7 @@ html .page .offset-top-165 {
 		margin-top: 20px;
 	}
 	html .page .offset-xl-top-30 {
-		margin-top: 30px;
+		margin-top: -110px;
 	}
 	html .page .offset-xl-top-35 {
 		margin-top: 35px;
@@ -24943,7 +24943,7 @@ html .page .offset-m-right-165 {
 
 .quote-classic-boxed-2 a:hover .text-darker {
 	transition: 0.35s all ease;
-	color: #00baff;
+	color: #9e4729;
 }
 
 .quote-classic-boxed-2 .h6 {
@@ -24963,7 +24963,7 @@ html .page .offset-m-right-165 {
 .quote-slider-2 .quote-author {
 	margin-top: 24px;
 	margin-bottom: 0;
-	color: #00baff;
+	color: #9e4729;
 	font-size: 17px;
 	line-height: 25px;
 	font-weight: 700;
